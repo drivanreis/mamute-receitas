@@ -1,0 +1,1423 @@
+
+> recipes-app-test@1.0.0 lint:styles
+> npx stylelint '**/*.css'
+
+
+src/Pages/Login.css
+   1:77  ✖  Expected single space before ";"                               at-rule-semicolon-space-before
+   1:79  ✖  Expected linebreak to be unix                                  linebreaks
+   2:1   ✖  Expected linebreak to be unix                                  linebreaks
+   3:19  ✖  Expected linebreak to be unix                                  linebreaks
+   4:27  ✖  Expected linebreak to be unix                                  linebreaks
+   5:57  ✖  Expected linebreak to be unix                                  linebreaks
+   6:28  ✖  Expected linebreak to be unix                                  linebreaks
+   7:3   ✖  Expected background-repeat to come before background-size      order/properties-alphabetical-order
+   7:32  ✖  Expected linebreak to be unix                                  linebreaks
+   8:3   ✖  Expected background-position to come before background-repeat  order/properties-alphabetical-order
+   8:31  ✖  Expected linebreak to be unix                                  linebreaks
+   9:17  ✖  Expected linebreak to be unix                                  linebreaks
+  10:26  ✖  Expected linebreak to be unix                                  linebreaks
+  11:3   ✖  Expected align-items to come before flex-direction             order/properties-alphabetical-order
+  11:23  ✖  Expected linebreak to be unix                                  linebreaks
+  12:17  ✖  Expected linebreak to be unix                                  linebreaks
+  13:3   ✖  Expected height to come before width                           order/properties-alphabetical-order
+  13:18  ✖  Expected linebreak to be unix                                  linebreaks
+  14:2   ✖  Expected linebreak to be unix                                  linebreaks
+  15:1   ✖  Expected linebreak to be unix                                  linebreaks
+  16:22  ✖  Expected linebreak to be unix                                  linebreaks
+  17:20  ✖  Expected linebreak to be unix                                  linebreaks
+  18:3   ✖  Expected margin-bottom to come before margin-top               order/properties-alphabetical-order
+  18:23  ✖  Expected linebreak to be unix                                  linebreaks
+  19:3   ✖  Expected font-family to come before margin-bottom              order/properties-alphabetical-order
+  19:16  ✖  Unexpected quotes around "Pacifico"                            font-family-name-quotes
+  19:26  ✖  Expected single space before ","                               value-list-comma-space-before
+  19:36  ✖  Expected linebreak to be unix                                  linebreaks
+  20:3   ✖  Expected color to come before font-family                      order/properties-alphabetical-order
+  20:20  ✖  Expected linebreak to be unix                                  linebreaks
+  21:19  ✖  Expected linebreak to be unix                                  linebreaks
+  22:20  ✖  Expected linebreak to be unix                                  linebreaks
+  23:28  ✖  Expected "rgb(0,0,0)" to be "black"                            color-named
+  23:41  ✖  Expected linebreak to be unix                                  linebreaks
+  24:3   ✖  Expected text-align to come before text-shadow                 order/properties-alphabetical-order
+  24:22  ✖  Expected linebreak to be unix                                  linebreaks
+  25:2   ✖  Expected linebreak to be unix                                  linebreaks
+  26:1   ✖  Expected linebreak to be unix                                  linebreaks
+  27:19  ✖  Expected linebreak to be unix                                  linebreaks
+  28:21  ✖  Expected linebreak to be unix                                  linebreaks
+  29:20  ✖  Expected linebreak to be unix                                  linebreaks
+  30:3   ✖  Expected font-family to come before font-weight                order/properties-alphabetical-order
+  30:16  ✖  Unexpected quotes around "Pacifico"                            font-family-name-quotes
+  30:26  ✖  Expected single space before ","                               value-list-comma-space-before
+  30:36  ✖  Expected linebreak to be unix                                  linebreaks
+  31:3   ✖  Expected color to come before font-family                      order/properties-alphabetical-order
+  31:20  ✖  Expected linebreak to be unix                                  linebreaks
+  32:28  ✖  Expected "rgb(0,0,0)" to be "black"                            color-named
+  32:41  ✖  Expected linebreak to be unix                                  linebreaks
+  33:3   ✖  Expected margin-bottom to come before text-shadow              order/properties-alphabetical-order
+  33:23  ✖  Expected linebreak to be unix                                  linebreaks
+  34:22  ✖  Expected linebreak to be unix                                  linebreaks
+  35:3   ✖  Expected display to come before text-align                     order/properties-alphabetical-order
+  35:17  ✖  Expected linebreak to be unix                                  linebreaks
+  36:26  ✖  Expected linebreak to be unix                                  linebreaks
+  37:27  ✖  Expected linebreak to be unix                                  linebreaks
+  38:16  ✖  Expected linebreak to be unix                                  linebreaks
+  39:3   ✖  Expected height to come before width                           order/properties-alphabetical-order
+  39:17  ✖  Expected linebreak to be unix                                  linebreaks
+  40:20  ✖  Expected linebreak to be unix                                  linebreaks
+  41:2   ✖  Expected linebreak to be unix                                  linebreaks
+  42:1   ✖  Expected linebreak to be unix                                  linebreaks
+  43:13  ✖  Expected linebreak to be unix                                  linebreaks
+  44:23  ✖  Expected linebreak to be unix                                  linebreaks
+  45:47  ✖  Expected linebreak to be unix                                  linebreaks
+  46:22  ✖  Expected linebreak to be unix                                  linebreaks
+  47:17  ✖  Expected linebreak to be unix                                  linebreaks
+  48:26  ✖  Expected linebreak to be unix                                  linebreaks
+  49:27  ✖  Expected linebreak to be unix                                  linebreaks
+  50:12  ✖  Expected linebreak to be unix                                  linebreaks
+  51:3   ✖  Expected left to come before top                               order/properties-alphabetical-order
+  51:13  ✖  Expected linebreak to be unix                                  linebreaks
+  52:16  ✖  Expected linebreak to be unix                                  linebreaks
+  53:3   ✖  Expected height to come before width                           order/properties-alphabetical-order
+  53:17  ✖  Expected linebreak to be unix                                  linebreaks
+  54:17  ✖  Expected linebreak to be unix                                  linebreaks
+  55:2   ✖  Expected linebreak to be unix                                  linebreaks
+  56:1   ✖  Expected linebreak to be unix                                  linebreaks
+  57:18  ✖  Expected linebreak to be unix                                  linebreaks
+  58:19  ✖  Expected linebreak to be unix                                  linebreaks
+  59:20  ✖  Expected linebreak to be unix                                  linebreaks
+  60:22  ✖  Expected linebreak to be unix                                  linebreaks
+  61:3   ✖  Expected color to come before text-align                       order/properties-alphabetical-order
+  61:20  ✖  Expected linebreak to be unix                                  linebreaks
+  62:3   ✖  Unexpected duplicate "font-size"                               declaration-block-no-duplicate-properties
+  62:21  ✖  Expected linebreak to be unix                                  linebreaks
+  63:3   ✖  Unexpected duplicate "font-weight"                             declaration-block-no-duplicate-properties
+  63:20  ✖  Expected linebreak to be unix                                  linebreaks
+  64:23  ✖  Expected linebreak to be unix                                  linebreaks
+  65:28  ✖  Expected "rgb(0,0,0)" to be "black"                            color-named
+  65:41  ✖  Expected linebreak to be unix                                  linebreaks
+  66:2   ✖  Expected linebreak to be unix                                  linebreaks
+  67:1   ✖  Expected linebreak to be unix                                  linebreaks
+  68:15  ✖  Expected linebreak to be unix                                  linebreaks
+  69:17  ✖  Expected linebreak to be unix                                  linebreaks
+  70:26  ✖  Expected linebreak to be unix                                  linebreaks
+  71:27  ✖  Expected linebreak to be unix                                  linebreaks
+  72:3   ✖  Expected align-items to come before justify-content            order/properties-alphabetical-order
+  72:23  ✖  Expected linebreak to be unix                                  linebreaks
+  73:15  ✖  Expected linebreak to be unix                                  linebreaks
+  74:3   ✖  Expected margin-bottom to come before width                    order/properties-alphabetical-order
+  74:23  ✖  Expected linebreak to be unix                                  linebreaks
+  75:17  ✖  Expected linebreak to be unix                                  linebreaks
+  76:2   ✖  Expected linebreak to be unix                                  linebreaks
+  77:1   ✖  Expected linebreak to be unix                                  linebreaks
+  78:32  ✖  Expected linebreak to be unix                                  linebreaks
+  79:29  ✖  Expected linebreak to be unix                                  linebreaks
+  80:22  ✖  Expected linebreak to be unix                                  linebreaks
+  81:17  ✖  Expected linebreak to be unix                                  linebreaks
+  82:15  ✖  Expected linebreak to be unix                                  linebreaks
+  83:3   ✖  Expected margin-bottom to come before width                    order/properties-alphabetical-order
+  83:23  ✖  Expected linebreak to be unix                                  linebreaks
+  84:2   ✖  Expected linebreak to be unix                                  linebreaks
+  85:1   ✖  Expected linebreak to be unix                                  linebreaks
+  86:16  ✖  Expected linebreak to be unix                                  linebreaks
+  87:17  ✖  Expected linebreak to be unix                                  linebreaks
+  88:26  ✖  Expected linebreak to be unix                                  linebreaks
+  89:27  ✖  Expected linebreak to be unix                                  linebreaks
+  90:3   ✖  Expected align-items to come before justify-content            order/properties-alphabetical-order
+  90:23  ✖  Expected linebreak to be unix                                  linebreaks
+  91:15  ✖  Expected linebreak to be unix                                  linebreaks
+  92:3   ✖  Expected padding to come before width                          order/properties-alphabetical-order
+  92:17  ✖  Expected linebreak to be unix                                  linebreaks
+  93:3   ✖  Expected background-color to come before padding               order/properties-alphabetical-order
+  93:21  ✖  Expected "#41197F" to be "#41197f"                             color-hex-case
+  93:29  ✖  Expected linebreak to be unix                                  linebreaks
+  94:10  ✖  Expected "#FCDC36" to be "#fcdc36"                             color-hex-case
+  94:18  ✖  Expected linebreak to be unix                                  linebreaks
+  95:20  ✖  Expected linebreak to be unix                                  linebreaks
+  96:3   ✖  Expected border to come before font-weight                     order/properties-alphabetical-order
+  96:16  ✖  Expected linebreak to be unix                                  linebreaks
+  97:19  ✖  Expected linebreak to be unix                                  linebreaks
+  98:3   ✖  Expected border-radius to come before cursor                   order/properties-alphabetical-order
+  98:22  ✖  Expected linebreak to be unix                                  linebreaks
+  99:20  ✖  Expected linebreak to be unix                                  linebreaks
+ 100:2   ✖  Expected linebreak to be unix                                  linebreaks
+ 101:1   ✖  Expected linebreak to be unix                                  linebreaks
+ 102:22  ✖  Expected linebreak to be unix                                  linebreaks
+ 103:21  ✖  Expected "#FCDC36" to be "#fcdc36"                             color-hex-case
+ 103:29  ✖  Expected linebreak to be unix                                  linebreaks
+ 104:10  ✖  Expected "#41197F" to be "#41197f"                             color-hex-case
+ 104:18  ✖  Expected linebreak to be unix                                  linebreaks
+ 105:2   ✖  Expected linebreak to be unix                                  linebreaks
+ 106:1   ✖  Expected linebreak to be unix                                  linebreaks
+ 107:9   ✖  Expected single space after "("                                media-feature-parentheses-space-inside
+ 107:18  ✖  Expected single space before ":"                               media-feature-colon-space-before
+ 107:24  ✖  Expected single space before ")"                               media-feature-parentheses-space-inside
+ 107:28  ✖  Expected linebreak to be unix                                  linebreaks
+ 108:3   ✖  Expected empty line before rule                                rule-empty-line-before
+ 108:21  ✖  Expected linebreak to be unix                                  linebreaks
+ 109:28  ✖  Expected linebreak to be unix                                  linebreaks
+ 110:4   ✖  Expected linebreak to be unix                                  linebreaks
+ 111:1   ✖  Unexpected missing end-of-source newline                       no-missing-end-of-source-newline
+
+src/Recipes/DoneRecipes.css
+   1:24  ✖  Expected linebreak to be unix                        linebreaks
+   2:17  ✖  Expected linebreak to be unix                        linebreaks
+   3:23  ✖  Expected linebreak to be unix                        linebreaks
+   4:3   ✖  Expected shorthand property "flex-flow"              declaration-block-no-redundant-longhand-properties
+   4:19  ✖  Expected linebreak to be unix                        linebreaks
+   5:27  ✖  Expected linebreak to be unix                        linebreaks
+   6:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+   6:23  ✖  Expected linebreak to be unix                        linebreaks
+   7:15  ✖  Expected linebreak to be unix                        linebreaks
+   8:14  ✖  Expected linebreak to be unix                        linebreaks
+   9:17  ✖  Expected linebreak to be unix                        linebreaks
+  10:2   ✖  Expected linebreak to be unix                        linebreaks
+  11:1   ✖  Expected linebreak to be unix                        linebreaks
+  12:14  ✖  Expected linebreak to be unix                        linebreaks
+  13:21  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+  13:29  ✖  Expected linebreak to be unix                        linebreaks
+  14:15  ✖  Expected linebreak to be unix                        linebreaks
+  15:3   ✖  Expected border to come before margin                order/properties-alphabetical-order
+  15:10  ✖  Expected single space after ":"                      declaration-colon-space-after
+  15:15  ✖  Expected linebreak to be unix                        linebreaks
+  16:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  16:18  ✖  Expected linebreak to be unix                        linebreaks
+  17:3   ✖  Expected box-shadow to come before color             order/properties-alphabetical-order
+  17:27  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  17:35  ✖  Expected linebreak to be unix                        linebreaks
+  18:21  ✖  Expected linebreak to be unix                        linebreaks
+  19:3   ✖  Expected font-weight to come before padding          order/properties-alphabetical-order
+  19:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+  19:21  ✖  Expected linebreak to be unix                        linebreaks
+  20:3   ✖  Expected border-radius to come before font-weight    order/properties-alphabetical-order
+  20:23  ✖  Expected linebreak to be unix                        linebreaks
+  21:2   ✖  Expected linebreak to be unix                        linebreaks
+  22:1   ✖  Expected linebreak to be unix                        linebreaks
+  23:20  ✖  Expected linebreak to be unix                        linebreaks
+  24:21  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  24:29  ✖  Expected linebreak to be unix                        linebreaks
+  25:10  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+  25:18  ✖  Expected linebreak to be unix                        linebreaks
+  26:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+  26:21  ✖  Expected linebreak to be unix                        linebreaks
+  27:2   ✖  Expected linebreak to be unix                        linebreaks
+  28:1   ✖  Expected linebreak to be unix                        linebreaks
+  29:13  ✖  Expected linebreak to be unix                        linebreaks
+  30:17  ✖  Expected linebreak to be unix                        linebreaks
+  31:23  ✖  Expected linebreak to be unix                        linebreaks
+  32:3   ✖  Expected shorthand property "flex-flow"              declaration-block-no-redundant-longhand-properties
+  32:19  ✖  Expected linebreak to be unix                        linebreaks
+  33:27  ✖  Expected linebreak to be unix                        linebreaks
+  34:22  ✖  Expected linebreak to be unix                        linebreaks
+  35:3   ✖  Expected margin to come before text-align            order/properties-alphabetical-order
+  35:13  ✖  Expected linebreak to be unix                        linebreaks
+  36:23  ✖  Expected linebreak to be unix                        linebreaks
+  37:14  ✖  Expected linebreak to be unix                        linebreaks
+  38:3   ✖  Expected max-width to come before padding            order/properties-alphabetical-order
+  38:21  ✖  Expected linebreak to be unix                        linebreaks
+  39:17  ✖  Expected linebreak to be unix                        linebreaks
+  40:3   ✖  Expected overflow-y to come before width             order/properties-alphabetical-order
+  40:22  ✖  Expected linebreak to be unix                        linebreaks
+  41:25  ✖  Expected linebreak to be unix                        linebreaks
+  42:2   ✖  Expected linebreak to be unix                        linebreaks
+  43:1   ✖  Expected linebreak to be unix                        linebreaks
+  44:25  ✖  Expected linebreak to be unix                        linebreaks
+  45:20  ✖  Expected linebreak to be unix                        linebreaks
+  46:13  ✖  Expected linebreak to be unix                        linebreaks
+  47:14  ✖  Expected linebreak to be unix                        linebreaks
+  48:3   ✖  Expected font-size to come before padding            order/properties-alphabetical-order
+  48:21  ✖  Expected linebreak to be unix                        linebreaks
+  49:3   ✖  Unexpected duplicate "font-weight"                   declaration-block-no-duplicate-properties
+  49:20  ✖  Expected linebreak to be unix                        linebreaks
+  50:2   ✖  Expected linebreak to be unix                        linebreaks
+  51:1   ✖  Expected linebreak to be unix                        linebreaks
+  52:25  ✖  Expected linebreak to be unix                        linebreaks
+  53:22  ✖  Expected linebreak to be unix                        linebreaks
+  54:3   ✖  Expected margin to come before text-align            order/properties-alphabetical-order
+  54:13  ✖  Expected linebreak to be unix                        linebreaks
+  55:14  ✖  Expected linebreak to be unix                        linebreaks
+  56:3   ✖  Expected font-size to come before padding            order/properties-alphabetical-order
+  56:19  ✖  Expected linebreak to be unix                        linebreaks
+  57:20  ✖  Expected linebreak to be unix                        linebreaks
+  58:25  ✖  Expected linebreak to be unix                        linebreaks
+  59:2   ✖  Expected linebreak to be unix                        linebreaks
+  60:1   ✖  Expected linebreak to be unix                        linebreaks
+  61:13  ✖  Expected linebreak to be unix                        linebreaks
+  62:22  ✖  Expected linebreak to be unix                        linebreaks
+  63:3   ✖  Expected margin to come before text-align            order/properties-alphabetical-order
+  63:13  ✖  Expected linebreak to be unix                        linebreaks
+  64:14  ✖  Expected linebreak to be unix                        linebreaks
+  65:3   ✖  Expected font-size to come before padding            order/properties-alphabetical-order
+  65:19  ✖  Expected linebreak to be unix                        linebreaks
+  66:20  ✖  Expected linebreak to be unix                        linebreaks
+  67:25  ✖  Expected linebreak to be unix                        linebreaks
+  68:2   ✖  Expected linebreak to be unix                        linebreaks
+  69:1   ✖  Expected linebreak to be unix                        linebreaks
+  70:18  ✖  Expected linebreak to be unix                        linebreaks
+  71:25  ✖  Expected linebreak to be unix                        linebreaks
+  72:3   ✖  Expected color to come before text-decoration        order/properties-alphabetical-order
+  72:16  ✖  Expected linebreak to be unix                        linebreaks
+  73:15  ✖  Expected linebreak to be unix                        linebreaks
+  74:16  ✖  Expected linebreak to be unix                        linebreaks
+  75:3   ✖  Expected border-radius to come before padding        order/properties-alphabetical-order
+  75:23  ✖  Expected linebreak to be unix                        linebreaks
+  76:48  ✖  Expected linebreak to be unix                        linebreaks
+  77:16  ✖  Expected linebreak to be unix                        linebreaks
+  78:3   ✖  Expected height to come before width                 order/properties-alphabetical-order
+  78:16  ✖  Expected linebreak to be unix                        linebreaks
+  79:3   ✖  Expected font-size to come before height             order/properties-alphabetical-order
+  79:19  ✖  Expected linebreak to be unix                        linebreaks
+  80:3   ✖  Expected display to come before font-size            order/properties-alphabetical-order
+  80:17  ✖  Expected linebreak to be unix                        linebreaks
+  81:26  ✖  Expected linebreak to be unix                        linebreaks
+  82:34  ✖  Expected linebreak to be unix                        linebreaks
+  83:2   ✖  Expected linebreak to be unix                        linebreaks
+  84:1   ✖  Expected linebreak to be unix                        linebreaks
+  85:24  ✖  Expected linebreak to be unix                        linebreaks
+  86:29  ✖  Expected linebreak to be unix                        linebreaks
+  87:16  ✖  Expected linebreak to be unix                        linebreaks
+  88:2   ✖  Expected linebreak to be unix                        linebreaks
+  89:1   ✖  Expected linebreak to be unix                        linebreaks
+  90:21  ✖  Expected linebreak to be unix                        linebreaks
+  91:17  ✖  Expected linebreak to be unix                        linebreaks
+  92:27  ✖  Expected linebreak to be unix                        linebreaks
+  93:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+  93:23  ✖  Expected linebreak to be unix                        linebreaks
+  94:19  ✖  Expected linebreak to be unix                        linebreaks
+  95:22  ✖  Expected linebreak to be unix                        linebreaks
+  96:19  ✖  Expected linebreak to be unix                        linebreaks
+  97:2   ✖  Expected linebreak to be unix                        linebreaks
+  98:1   ✖  Expected linebreak to be unix                        linebreaks
+  99:17  ✖  Expected linebreak to be unix                        linebreaks
+ 100:16  ✖  Expected linebreak to be unix                        linebreaks
+ 101:3   ✖  Expected height to come before width                 order/properties-alphabetical-order
+ 101:17  ✖  Expected linebreak to be unix                        linebreaks
+ 102:2   ✖  Expected linebreak to be unix                        linebreaks
+ 103:1   ✖  Expected linebreak to be unix                        linebreaks
+ 104:25  ✖  Expected linebreak to be unix                        linebreaks
+ 105:21  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+ 105:29  ✖  Expected linebreak to be unix                        linebreaks
+ 106:10  ✖  Expected single space after ":"                      declaration-colon-space-after
+ 106:15  ✖  Expected linebreak to be unix                        linebreaks
+ 107:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 107:18  ✖  Expected linebreak to be unix                        linebreaks
+ 108:3   ✖  Expected box-shadow to come before color             order/properties-alphabetical-order
+ 108:27  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 108:35  ✖  Expected linebreak to be unix                        linebreaks
+ 109:21  ✖  Expected linebreak to be unix                        linebreaks
+ 110:3   ✖  Expected font-weight to come before padding          order/properties-alphabetical-order
+ 110:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+ 110:21  ✖  Expected linebreak to be unix                        linebreaks
+ 111:3   ✖  Expected border-radius to come before font-weight    order/properties-alphabetical-order
+ 111:23  ✖  Expected linebreak to be unix                        linebreaks
+ 112:20  ✖  Expected linebreak to be unix                        linebreaks
+ 113:1   ✖  Unexpected missing end-of-source newline             no-missing-end-of-source-newline
+
+src/Recipes/DrinkDetails.css
+   1:27  ✖  Expected linebreak to be unix                           linebreaks
+   2:17  ✖  Expected linebreak to be unix                           linebreaks
+   3:26  ✖  Expected linebreak to be unix                           linebreaks
+   4:27  ✖  Expected linebreak to be unix                           linebreaks
+   5:3   ✖  Expected align-items to come before justify-content     order/properties-alphabetical-order
+   5:23  ✖  Expected linebreak to be unix                           linebreaks
+   6:13  ✖  Expected linebreak to be unix                           linebreaks
+   7:14  ✖  Expected linebreak to be unix                           linebreaks
+   8:17  ✖  Expected linebreak to be unix                           linebreaks
+   9:3   ✖  Expected margin-top to come before width                order/properties-alphabetical-order
+   9:19  ✖  Expected linebreak to be unix                           linebreaks
+  10:2   ✖  Expected linebreak to be unix                           linebreaks
+  11:1   ✖  Expected linebreak to be unix                           linebreaks
+  12:13  ✖  Expected linebreak to be unix                           linebreaks
+  13:16  ✖  Expected linebreak to be unix                           linebreaks
+  14:2   ✖  Expected linebreak to be unix                           linebreaks
+  15:1   ✖  Expected linebreak to be unix                           linebreaks
+  16:17  ✖  Expected linebreak to be unix                           linebreaks
+  17:19  ✖  Expected linebreak to be unix                           linebreaks
+  18:3   ✖  Expected margin-left to come before margin-top          order/properties-alphabetical-order
+  18:20  ✖  Expected linebreak to be unix                           linebreaks
+  19:21  ✖  Expected linebreak to be unix                           linebreaks
+  20:3   ✖  Expected border-radius to come before margin-right      order/properties-alphabetical-order
+  20:22  ✖  Expected linebreak to be unix                           linebreaks
+  21:3   ✖  Expected background-color to come before border-radius  order/properties-alphabetical-order
+  21:27  ✖  Expected linebreak to be unix                           linebreaks
+  22:16  ✖  Expected linebreak to be unix                           linebreaks
+  23:3   ✖  Expected border to come before padding                  order/properties-alphabetical-order
+  23:21  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  23:29  ✖  Expected linebreak to be unix                           linebreaks
+  24:2   ✖  Expected linebreak to be unix                           linebreaks
+  25:1   ✖  Expected linebreak to be unix                           linebreaks
+  26:23  ✖  Expected linebreak to be unix                           linebreaks
+  27:21  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  27:29  ✖  Expected linebreak to be unix                           linebreaks
+  28:2   ✖  Expected linebreak to be unix                           linebreaks
+  29:1   ✖  Expected linebreak to be unix                           linebreaks
+  30:11  ✖  Expected linebreak to be unix                           linebreaks
+  31:17  ✖  Expected linebreak to be unix                           linebreaks
+  32:3   ✖  Expected cursor to come before width                    order/properties-alphabetical-order
+  32:19  ✖  Expected linebreak to be unix                           linebreaks
+  33:17  ✖  Expected linebreak to be unix                           linebreaks
+  34:23  ✖  Expected linebreak to be unix                           linebreaks
+  35:29  ✖  Expected linebreak to be unix                           linebreaks
+  36:3   ✖  Expected align-items to come before justify-content     order/properties-alphabetical-order
+  36:23  ✖  Expected linebreak to be unix                           linebreaks
+  37:12  ✖  Unexpected unit                                         length-zero-no-unit
+  37:15  ✖  Expected linebreak to be unix                           linebreaks
+  38:2   ✖  Expected linebreak to be unix                           linebreaks
+  39:1   ✖  Expected linebreak to be unix                           linebreaks
+  40:15  ✖  Expected linebreak to be unix                           linebreaks
+  41:17  ✖  Expected linebreak to be unix                           linebreaks
+  42:3   ✖  Expected background-color to come before width          order/properties-alphabetical-order
+  42:21  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  42:29  ✖  Expected linebreak to be unix                           linebreaks
+  43:22  ✖  Expected linebreak to be unix                           linebreaks
+  44:3   ✖  Expected font-size to come before text-align            order/properties-alphabetical-order
+  44:21  ✖  Expected linebreak to be unix                           linebreaks
+  45:19  ✖  Expected linebreak to be unix                           linebreaks
+  46:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  46:20  ✖  Expected linebreak to be unix                           linebreaks
+  47:3   ✖  Expected color to come before margin-bottom             order/properties-alphabetical-order
+  47:10  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  47:18  ✖  Expected linebreak to be unix                           linebreaks
+  48:2   ✖  Expected linebreak to be unix                           linebreaks
+  49:1   ✖  Expected linebreak to be unix                           linebreaks
+  50:18  ✖  Expected linebreak to be unix                           linebreaks
+  51:17  ✖  Expected linebreak to be unix                           linebreaks
+  52:3   ✖  Expected background-color to come before width          order/properties-alphabetical-order
+  52:21  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  52:29  ✖  Expected linebreak to be unix                           linebreaks
+  53:22  ✖  Expected linebreak to be unix                           linebreaks
+  54:3   ✖  Expected font-size to come before text-align            order/properties-alphabetical-order
+  54:21  ✖  Expected linebreak to be unix                           linebreaks
+  55:17  ✖  Expected linebreak to be unix                           linebreaks
+  56:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  56:20  ✖  Expected linebreak to be unix                           linebreaks
+  57:3   ✖  Expected color to come before margin-bottom             order/properties-alphabetical-order
+  57:10  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  57:18  ✖  Expected linebreak to be unix                           linebreaks
+  58:16  ✖  Expected linebreak to be unix                           linebreaks
+  59:2   ✖  Expected linebreak to be unix                           linebreaks
+  60:1   ✖  Expected linebreak to be unix                           linebreaks
+  61:22  ✖  Expected linebreak to be unix                           linebreaks
+  62:17  ✖  Expected linebreak to be unix                           linebreaks
+  63:3   ✖  Expected text-align to come before width                order/properties-alphabetical-order
+  63:22  ✖  Expected linebreak to be unix                           linebreaks
+  64:2   ✖  Expected linebreak to be unix                           linebreaks
+  65:1   ✖  Expected empty line before rule                         rule-empty-line-before
+  65:21  ✖  Expected linebreak to be unix                           linebreaks
+  66:16  ✖  Expected linebreak to be unix                           linebreaks
+  67:3   ✖  Expected margin-top to come before width                order/properties-alphabetical-order
+  67:19  ✖  Expected linebreak to be unix                           linebreaks
+  68:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  68:23  ✖  Expected linebreak to be unix                           linebreaks
+  69:2   ✖  Expected linebreak to be unix                           linebreaks
+  70:1   ✖  Expected linebreak to be unix                           linebreaks
+  71:22  ✖  Expected linebreak to be unix                           linebreaks
+  72:17  ✖  Expected linebreak to be unix                           linebreaks
+  73:3   ✖  Expected text-align to come before width                order/properties-alphabetical-order
+  73:22  ✖  Expected linebreak to be unix                           linebreaks
+  74:3   ✖  Unexpected duplicate "width"                            declaration-block-no-duplicate-properties
+  74:16  ✖  Expected linebreak to be unix                           linebreaks
+  75:3   ✖  Expected margin to come before width                    order/properties-alphabetical-order
+  75:3   ✖  Expected "10px 20px 10px 20px" to be "10px 20px"        shorthand-property-no-redundant-values
+  75:31  ✖  Expected linebreak to be unix                           linebreaks
+  76:2   ✖  Expected linebreak to be unix                           linebreaks
+  77:1   ✖  Expected linebreak to be unix                           linebreaks
+  78:25  ✖  Expected linebreak to be unix                           linebreaks
+  79:17  ✖  Expected linebreak to be unix                           linebreaks
+  80:3   ✖  Expected text-align to come before width                order/properties-alphabetical-order
+  80:22  ✖  Expected linebreak to be unix                           linebreaks
+  81:3   ✖  Expected font-size to come before text-align            order/properties-alphabetical-order
+  81:22  ✖  Expected linebreak to be unix                           linebreaks
+  82:19  ✖  Expected linebreak to be unix                           linebreaks
+  83:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  83:20  ✖  Expected linebreak to be unix                           linebreaks
+  84:1   ✖  Expected linebreak to be unix                           linebreaks
+  85:2   ✖  Expected linebreak to be unix                           linebreaks
+  86:1   ✖  Expected linebreak to be unix                           linebreaks
+  87:1   ✖  Expected linebreak to be unix                           linebreaks
+  88:20  ✖  Expected linebreak to be unix                           linebreaks
+  89:17  ✖  Expected linebreak to be unix                           linebreaks
+  90:3   ✖  Expected background-color to come before width          order/properties-alphabetical-order
+  90:21  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  90:29  ✖  Expected linebreak to be unix                           linebreaks
+  91:10  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  91:18  ✖  Expected linebreak to be unix                           linebreaks
+  92:3   ✖  Expected border to come before color                    order/properties-alphabetical-order
+  92:16  ✖  Expected linebreak to be unix                           linebreaks
+  93:17  ✖  Expected linebreak to be unix                           linebreaks
+  94:3   ✖  Expected margin to come before padding                  order/properties-alphabetical-order
+  94:13  ✖  Expected linebreak to be unix                           linebreaks
+  95:3   ✖  Expected cursor to come before margin                   order/properties-alphabetical-order
+  95:19  ✖  Expected linebreak to be unix                           linebreaks
+  96:20  ✖  Expected linebreak to be unix                           linebreaks
+  97:19  ✖  Expected linebreak to be unix                           linebreaks
+  98:3   ✖  Expected bottom to come before position                 order/properties-alphabetical-order
+  98:13  ✖  Expected linebreak to be unix                           linebreaks
+  99:2   ✖  Expected linebreak to be unix                           linebreaks
+ 100:1   ✖  Expected linebreak to be unix                           linebreaks
+ 101:26  ✖  Expected linebreak to be unix                           linebreaks
+ 102:21  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+ 102:29  ✖  Expected linebreak to be unix                           linebreaks
+ 103:10  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+ 103:18  ✖  Expected linebreak to be unix                           linebreaks
+ 104:1   ✖  Unexpected missing end-of-source newline                no-missing-end-of-source-newline
+
+src/Recipes/FavoriteRecipes.css
+   1:28  ✖  Expected linebreak to be unix                        linebreaks
+   2:17  ✖  Expected linebreak to be unix                        linebreaks
+   3:23  ✖  Expected linebreak to be unix                        linebreaks
+   4:3   ✖  Expected shorthand property "flex-flow"              declaration-block-no-redundant-longhand-properties
+   4:19  ✖  Expected linebreak to be unix                        linebreaks
+   5:27  ✖  Expected linebreak to be unix                        linebreaks
+   6:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+   6:23  ✖  Expected linebreak to be unix                        linebreaks
+   7:15  ✖  Expected linebreak to be unix                        linebreaks
+   8:14  ✖  Expected linebreak to be unix                        linebreaks
+   9:17  ✖  Expected linebreak to be unix                        linebreaks
+  10:2   ✖  Expected linebreak to be unix                        linebreaks
+  11:1   ✖  Expected linebreak to be unix                        linebreaks
+  12:14  ✖  Expected linebreak to be unix                        linebreaks
+  13:21  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+  13:29  ✖  Expected linebreak to be unix                        linebreaks
+  14:15  ✖  Expected linebreak to be unix                        linebreaks
+  15:3   ✖  Expected border to come before margin                order/properties-alphabetical-order
+  15:10  ✖  Expected single space after ":"                      declaration-colon-space-after
+  15:15  ✖  Expected linebreak to be unix                        linebreaks
+  16:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  16:18  ✖  Expected linebreak to be unix                        linebreaks
+  17:3   ✖  Expected box-shadow to come before color             order/properties-alphabetical-order
+  17:27  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  17:35  ✖  Expected linebreak to be unix                        linebreaks
+  18:21  ✖  Expected linebreak to be unix                        linebreaks
+  19:3   ✖  Expected font-weight to come before padding          order/properties-alphabetical-order
+  19:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+  19:21  ✖  Expected linebreak to be unix                        linebreaks
+  20:3   ✖  Expected border-radius to come before font-weight    order/properties-alphabetical-order
+  20:23  ✖  Expected linebreak to be unix                        linebreaks
+  21:2   ✖  Expected linebreak to be unix                        linebreaks
+  22:1   ✖  Expected linebreak to be unix                        linebreaks
+  23:20  ✖  Expected linebreak to be unix                        linebreaks
+  24:21  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  24:29  ✖  Expected linebreak to be unix                        linebreaks
+  25:10  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+  25:18  ✖  Expected linebreak to be unix                        linebreaks
+  26:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+  26:21  ✖  Expected linebreak to be unix                        linebreaks
+  27:2   ✖  Expected linebreak to be unix                        linebreaks
+  28:1   ✖  Expected linebreak to be unix                        linebreaks
+  29:17  ✖  Expected linebreak to be unix                        linebreaks
+  30:17  ✖  Expected linebreak to be unix                        linebreaks
+  31:23  ✖  Expected linebreak to be unix                        linebreaks
+  32:3   ✖  Expected shorthand property "flex-flow"              declaration-block-no-redundant-longhand-properties
+  32:19  ✖  Expected linebreak to be unix                        linebreaks
+  33:27  ✖  Expected linebreak to be unix                        linebreaks
+  34:22  ✖  Expected linebreak to be unix                        linebreaks
+  35:3   ✖  Expected margin to come before text-align            order/properties-alphabetical-order
+  35:13  ✖  Expected linebreak to be unix                        linebreaks
+  36:23  ✖  Expected linebreak to be unix                        linebreaks
+  37:14  ✖  Expected linebreak to be unix                        linebreaks
+  38:3   ✖  Expected max-width to come before padding            order/properties-alphabetical-order
+  38:21  ✖  Expected linebreak to be unix                        linebreaks
+  39:17  ✖  Expected linebreak to be unix                        linebreaks
+  40:3   ✖  Expected overflow-y to come before width             order/properties-alphabetical-order
+  40:22  ✖  Expected linebreak to be unix                        linebreaks
+  41:25  ✖  Expected linebreak to be unix                        linebreaks
+  42:2   ✖  Expected linebreak to be unix                        linebreaks
+  43:1   ✖  Expected linebreak to be unix                        linebreaks
+  44:29  ✖  Expected linebreak to be unix                        linebreaks
+  45:20  ✖  Expected linebreak to be unix                        linebreaks
+  46:13  ✖  Expected linebreak to be unix                        linebreaks
+  47:14  ✖  Expected linebreak to be unix                        linebreaks
+  48:3   ✖  Expected font-size to come before padding            order/properties-alphabetical-order
+  48:21  ✖  Expected linebreak to be unix                        linebreaks
+  49:3   ✖  Unexpected duplicate "font-weight"                   declaration-block-no-duplicate-properties
+  49:20  ✖  Expected linebreak to be unix                        linebreaks
+  50:2   ✖  Expected linebreak to be unix                        linebreaks
+  51:1   ✖  Expected linebreak to be unix                        linebreaks
+  52:29  ✖  Expected linebreak to be unix                        linebreaks
+  53:22  ✖  Expected linebreak to be unix                        linebreaks
+  54:3   ✖  Expected margin to come before text-align            order/properties-alphabetical-order
+  54:13  ✖  Expected linebreak to be unix                        linebreaks
+  55:14  ✖  Expected linebreak to be unix                        linebreaks
+  56:3   ✖  Expected font-size to come before padding            order/properties-alphabetical-order
+  56:19  ✖  Expected linebreak to be unix                        linebreaks
+  57:20  ✖  Expected linebreak to be unix                        linebreaks
+  58:25  ✖  Expected linebreak to be unix                        linebreaks
+  59:2   ✖  Expected linebreak to be unix                        linebreaks
+  60:1   ✖  Expected linebreak to be unix                        linebreaks
+  61:17  ✖  Expected linebreak to be unix                        linebreaks
+  62:22  ✖  Expected linebreak to be unix                        linebreaks
+  63:3   ✖  Expected margin to come before text-align            order/properties-alphabetical-order
+  63:13  ✖  Expected linebreak to be unix                        linebreaks
+  64:14  ✖  Expected linebreak to be unix                        linebreaks
+  65:3   ✖  Expected font-size to come before padding            order/properties-alphabetical-order
+  65:19  ✖  Expected linebreak to be unix                        linebreaks
+  66:20  ✖  Expected linebreak to be unix                        linebreaks
+  67:25  ✖  Expected linebreak to be unix                        linebreaks
+  68:2   ✖  Expected linebreak to be unix                        linebreaks
+  69:1   ✖  Expected linebreak to be unix                        linebreaks
+  70:22  ✖  Expected linebreak to be unix                        linebreaks
+  71:25  ✖  Expected linebreak to be unix                        linebreaks
+  72:3   ✖  Expected color to come before text-decoration        order/properties-alphabetical-order
+  72:16  ✖  Expected linebreak to be unix                        linebreaks
+  73:15  ✖  Expected linebreak to be unix                        linebreaks
+  74:16  ✖  Expected linebreak to be unix                        linebreaks
+  75:3   ✖  Expected border-radius to come before padding        order/properties-alphabetical-order
+  75:23  ✖  Expected linebreak to be unix                        linebreaks
+  76:48  ✖  Expected linebreak to be unix                        linebreaks
+  77:16  ✖  Expected linebreak to be unix                        linebreaks
+  78:3   ✖  Expected height to come before width                 order/properties-alphabetical-order
+  78:16  ✖  Expected linebreak to be unix                        linebreaks
+  79:3   ✖  Expected font-size to come before height             order/properties-alphabetical-order
+  79:19  ✖  Expected linebreak to be unix                        linebreaks
+  80:3   ✖  Expected display to come before font-size            order/properties-alphabetical-order
+  80:17  ✖  Expected linebreak to be unix                        linebreaks
+  81:26  ✖  Expected linebreak to be unix                        linebreaks
+  82:34  ✖  Expected linebreak to be unix                        linebreaks
+  83:2   ✖  Expected linebreak to be unix                        linebreaks
+  84:1   ✖  Expected linebreak to be unix                        linebreaks
+  85:28  ✖  Expected linebreak to be unix                        linebreaks
+  86:29  ✖  Expected linebreak to be unix                        linebreaks
+  87:16  ✖  Expected linebreak to be unix                        linebreaks
+  88:2   ✖  Expected linebreak to be unix                        linebreaks
+  89:1   ✖  Expected linebreak to be unix                        linebreaks
+  90:25  ✖  Expected linebreak to be unix                        linebreaks
+  91:17  ✖  Expected linebreak to be unix                        linebreaks
+  92:27  ✖  Expected linebreak to be unix                        linebreaks
+  93:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+  93:23  ✖  Expected linebreak to be unix                        linebreaks
+  94:19  ✖  Expected linebreak to be unix                        linebreaks
+  95:22  ✖  Expected linebreak to be unix                        linebreaks
+  96:19  ✖  Expected linebreak to be unix                        linebreaks
+  97:2   ✖  Expected linebreak to be unix                        linebreaks
+  98:1   ✖  Expected linebreak to be unix                        linebreaks
+  99:21  ✖  Expected linebreak to be unix                        linebreaks
+ 100:16  ✖  Expected linebreak to be unix                        linebreaks
+ 101:3   ✖  Expected height to come before width                 order/properties-alphabetical-order
+ 101:17  ✖  Expected linebreak to be unix                        linebreaks
+ 102:2   ✖  Expected linebreak to be unix                        linebreaks
+ 103:1   ✖  Expected linebreak to be unix                        linebreaks
+ 104:29  ✖  Expected linebreak to be unix                        linebreaks
+ 105:21  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+ 105:29  ✖  Expected linebreak to be unix                        linebreaks
+ 106:10  ✖  Expected single space after ":"                      declaration-colon-space-after
+ 106:15  ✖  Expected linebreak to be unix                        linebreaks
+ 107:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 107:18  ✖  Expected linebreak to be unix                        linebreaks
+ 108:3   ✖  Expected box-shadow to come before color             order/properties-alphabetical-order
+ 108:27  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 108:35  ✖  Expected linebreak to be unix                        linebreaks
+ 109:21  ✖  Expected linebreak to be unix                        linebreaks
+ 110:3   ✖  Expected font-weight to come before padding          order/properties-alphabetical-order
+ 110:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+ 110:21  ✖  Expected linebreak to be unix                        linebreaks
+ 111:3   ✖  Expected border-radius to come before font-weight    order/properties-alphabetical-order
+ 111:23  ✖  Expected linebreak to be unix                        linebreaks
+ 112:20  ✖  Expected linebreak to be unix                        linebreaks
+ 113:19  ✖  Expected linebreak to be unix                        linebreaks
+ 114:2   ✖  Expected linebreak to be unix                        linebreaks
+ 115:1   ✖  Expected linebreak to be unix                        linebreaks
+ 116:35  ✖  Expected linebreak to be unix                        linebreaks
+ 117:21  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 117:29  ✖  Expected linebreak to be unix                        linebreaks
+ 118:10  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+ 118:18  ✖  Expected linebreak to be unix                        linebreaks
+ 119:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+ 119:21  ✖  Expected linebreak to be unix                        linebreaks
+ 120:1   ✖  Unexpected missing end-of-source newline             no-missing-end-of-source-newline
+
+src/Recipes/MealDetails.css
+   1:26  ✖  Expected linebreak to be unix                           linebreaks
+   2:17  ✖  Expected linebreak to be unix                           linebreaks
+   3:26  ✖  Expected linebreak to be unix                           linebreaks
+   4:27  ✖  Expected linebreak to be unix                           linebreaks
+   5:3   ✖  Expected align-items to come before justify-content     order/properties-alphabetical-order
+   5:23  ✖  Expected linebreak to be unix                           linebreaks
+   6:13  ✖  Expected linebreak to be unix                           linebreaks
+   7:14  ✖  Expected linebreak to be unix                           linebreaks
+   8:17  ✖  Expected linebreak to be unix                           linebreaks
+   9:3   ✖  Expected margin-top to come before width                order/properties-alphabetical-order
+   9:19  ✖  Expected linebreak to be unix                           linebreaks
+  10:2   ✖  Expected linebreak to be unix                           linebreaks
+  11:1   ✖  Expected linebreak to be unix                           linebreaks
+  12:12  ✖  Expected linebreak to be unix                           linebreaks
+  13:16  ✖  Expected linebreak to be unix                           linebreaks
+  14:2   ✖  Expected linebreak to be unix                           linebreaks
+  15:1   ✖  Expected linebreak to be unix                           linebreaks
+  16:17  ✖  Expected linebreak to be unix                           linebreaks
+  17:19  ✖  Expected linebreak to be unix                           linebreaks
+  18:3   ✖  Expected margin-left to come before margin-top          order/properties-alphabetical-order
+  18:20  ✖  Expected linebreak to be unix                           linebreaks
+  19:21  ✖  Expected linebreak to be unix                           linebreaks
+  20:3   ✖  Expected border-radius to come before margin-right      order/properties-alphabetical-order
+  20:22  ✖  Expected linebreak to be unix                           linebreaks
+  21:3   ✖  Expected background-color to come before border-radius  order/properties-alphabetical-order
+  21:27  ✖  Expected linebreak to be unix                           linebreaks
+  22:16  ✖  Expected linebreak to be unix                           linebreaks
+  23:3   ✖  Expected border to come before padding                  order/properties-alphabetical-order
+  23:21  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  23:29  ✖  Expected linebreak to be unix                           linebreaks
+  24:2   ✖  Expected linebreak to be unix                           linebreaks
+  25:1   ✖  Expected linebreak to be unix                           linebreaks
+  26:23  ✖  Expected linebreak to be unix                           linebreaks
+  27:21  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  27:29  ✖  Expected linebreak to be unix                           linebreaks
+  28:2   ✖  Expected linebreak to be unix                           linebreaks
+  29:1   ✖  Expected linebreak to be unix                           linebreaks
+  30:11  ✖  Expected linebreak to be unix                           linebreaks
+  31:17  ✖  Expected linebreak to be unix                           linebreaks
+  32:3   ✖  Expected cursor to come before width                    order/properties-alphabetical-order
+  32:19  ✖  Expected linebreak to be unix                           linebreaks
+  33:17  ✖  Expected linebreak to be unix                           linebreaks
+  34:23  ✖  Expected linebreak to be unix                           linebreaks
+  35:29  ✖  Expected linebreak to be unix                           linebreaks
+  36:3   ✖  Expected align-items to come before justify-content     order/properties-alphabetical-order
+  36:23  ✖  Expected linebreak to be unix                           linebreaks
+  37:12  ✖  Unexpected unit                                         length-zero-no-unit
+  37:15  ✖  Expected linebreak to be unix                           linebreaks
+  38:2   ✖  Expected linebreak to be unix                           linebreaks
+  39:1   ✖  Expected linebreak to be unix                           linebreaks
+  40:14  ✖  Expected linebreak to be unix                           linebreaks
+  41:17  ✖  Expected linebreak to be unix                           linebreaks
+  42:3   ✖  Expected background-color to come before width          order/properties-alphabetical-order
+  42:21  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  42:29  ✖  Expected linebreak to be unix                           linebreaks
+  43:22  ✖  Expected linebreak to be unix                           linebreaks
+  44:3   ✖  Expected font-size to come before text-align            order/properties-alphabetical-order
+  44:21  ✖  Expected linebreak to be unix                           linebreaks
+  45:19  ✖  Expected linebreak to be unix                           linebreaks
+  46:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  46:20  ✖  Expected linebreak to be unix                           linebreaks
+  47:3   ✖  Expected color to come before margin-bottom             order/properties-alphabetical-order
+  47:10  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  47:18  ✖  Expected linebreak to be unix                           linebreaks
+  48:2   ✖  Expected linebreak to be unix                           linebreaks
+  49:1   ✖  Expected linebreak to be unix                           linebreaks
+  50:17  ✖  Expected linebreak to be unix                           linebreaks
+  51:17  ✖  Expected linebreak to be unix                           linebreaks
+  52:3   ✖  Expected background-color to come before width          order/properties-alphabetical-order
+  52:21  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  52:29  ✖  Expected linebreak to be unix                           linebreaks
+  53:22  ✖  Expected linebreak to be unix                           linebreaks
+  54:3   ✖  Expected font-size to come before text-align            order/properties-alphabetical-order
+  54:21  ✖  Expected linebreak to be unix                           linebreaks
+  55:17  ✖  Expected linebreak to be unix                           linebreaks
+  56:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  56:20  ✖  Expected linebreak to be unix                           linebreaks
+  57:3   ✖  Expected color to come before margin-bottom             order/properties-alphabetical-order
+  57:10  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  57:18  ✖  Expected linebreak to be unix                           linebreaks
+  58:16  ✖  Expected linebreak to be unix                           linebreaks
+  59:2   ✖  Expected linebreak to be unix                           linebreaks
+  60:1   ✖  Expected linebreak to be unix                           linebreaks
+  61:22  ✖  Expected linebreak to be unix                           linebreaks
+  62:17  ✖  Expected linebreak to be unix                           linebreaks
+  63:3   ✖  Expected text-align to come before width                order/properties-alphabetical-order
+  63:22  ✖  Expected linebreak to be unix                           linebreaks
+  64:2   ✖  Expected linebreak to be unix                           linebreaks
+  65:1   ✖  Expected empty line before rule                         rule-empty-line-before
+  65:21  ✖  Expected linebreak to be unix                           linebreaks
+  66:16  ✖  Expected linebreak to be unix                           linebreaks
+  67:3   ✖  Expected margin-top to come before width                order/properties-alphabetical-order
+  67:19  ✖  Expected linebreak to be unix                           linebreaks
+  68:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  68:23  ✖  Expected linebreak to be unix                           linebreaks
+  69:2   ✖  Expected linebreak to be unix                           linebreaks
+  70:1   ✖  Expected linebreak to be unix                           linebreaks
+  71:21  ✖  Expected linebreak to be unix                           linebreaks
+  72:17  ✖  Expected linebreak to be unix                           linebreaks
+  73:3   ✖  Expected text-align to come before width                order/properties-alphabetical-order
+  73:22  ✖  Expected linebreak to be unix                           linebreaks
+  74:3   ✖  Unexpected duplicate "width"                            declaration-block-no-duplicate-properties
+  74:16  ✖  Expected linebreak to be unix                           linebreaks
+  75:3   ✖  Expected margin to come before width                    order/properties-alphabetical-order
+  75:3   ✖  Expected "10px 20px 10px 20px" to be "10px 20px"        shorthand-property-no-redundant-values
+  75:31  ✖  Expected linebreak to be unix                           linebreaks
+  76:2   ✖  Expected linebreak to be unix                           linebreaks
+  77:1   ✖  Expected linebreak to be unix                           linebreaks
+  78:25  ✖  Expected linebreak to be unix                           linebreaks
+  79:17  ✖  Expected linebreak to be unix                           linebreaks
+  80:3   ✖  Expected text-align to come before width                order/properties-alphabetical-order
+  80:22  ✖  Expected linebreak to be unix                           linebreaks
+  81:3   ✖  Expected font-size to come before text-align            order/properties-alphabetical-order
+  81:22  ✖  Expected linebreak to be unix                           linebreaks
+  82:19  ✖  Expected linebreak to be unix                           linebreaks
+  83:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  83:20  ✖  Expected linebreak to be unix                           linebreaks
+  84:1   ✖  Expected linebreak to be unix                           linebreaks
+  85:2   ✖  Expected linebreak to be unix                           linebreaks
+  86:1   ✖  Expected linebreak to be unix                           linebreaks
+  87:1   ✖  Expected linebreak to be unix                           linebreaks
+  88:20  ✖  Expected linebreak to be unix                           linebreaks
+  89:17  ✖  Expected linebreak to be unix                           linebreaks
+  90:3   ✖  Expected background-color to come before width          order/properties-alphabetical-order
+  90:21  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  90:29  ✖  Expected linebreak to be unix                           linebreaks
+  91:10  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  91:18  ✖  Expected linebreak to be unix                           linebreaks
+  92:3   ✖  Expected border to come before color                    order/properties-alphabetical-order
+  92:16  ✖  Expected linebreak to be unix                           linebreaks
+  93:17  ✖  Expected linebreak to be unix                           linebreaks
+  94:3   ✖  Expected margin to come before padding                  order/properties-alphabetical-order
+  94:13  ✖  Expected linebreak to be unix                           linebreaks
+  95:3   ✖  Expected cursor to come before margin                   order/properties-alphabetical-order
+  95:19  ✖  Expected linebreak to be unix                           linebreaks
+  96:20  ✖  Expected linebreak to be unix                           linebreaks
+  97:19  ✖  Expected linebreak to be unix                           linebreaks
+  98:3   ✖  Expected bottom to come before position                 order/properties-alphabetical-order
+  98:13  ✖  Expected linebreak to be unix                           linebreaks
+  99:2   ✖  Expected linebreak to be unix                           linebreaks
+ 100:1   ✖  Expected linebreak to be unix                           linebreaks
+ 101:26  ✖  Expected linebreak to be unix                           linebreaks
+ 102:21  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+ 102:29  ✖  Expected linebreak to be unix                           linebreaks
+ 103:10  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+ 103:18  ✖  Expected linebreak to be unix                           linebreaks
+ 104:1   ✖  Unexpected missing end-of-source newline                no-missing-end-of-source-newline
+
+src/Recipes/Profile.css
+  1:26  ✖  Expected linebreak to be unix                        linebreaks
+  2:17  ✖  Expected linebreak to be unix                        linebreaks
+  3:26  ✖  Expected linebreak to be unix                        linebreaks
+  4:3   ✖  Expected align-items to come before flex-direction   order/properties-alphabetical-order
+  4:23  ✖  Expected linebreak to be unix                        linebreaks
+  5:13  ✖  Expected linebreak to be unix                        linebreaks
+  6:14  ✖  Expected linebreak to be unix                        linebreaks
+  7:3   ✖  Expected max-width to come before padding            order/properties-alphabetical-order
+  7:21  ✖  Expected linebreak to be unix                        linebreaks
+  8:2   ✖  Expected linebreak to be unix                        linebreaks
+  9:1   ✖  Expected linebreak to be unix                        linebreaks
+ 10:13  ✖  Expected linebreak to be unix                        linebreaks
+ 11:22  ✖  Expected linebreak to be unix                        linebreaks
+ 12:3   ✖  Expected font-size to come before text-align         order/properties-alphabetical-order
+ 12:21  ✖  Expected linebreak to be unix                        linebreaks
+ 13:20  ✖  Expected linebreak to be unix                        linebreaks
+ 14:3   ✖  Expected "10px 5px 10px 5px" to be "10px 5px"        shorthand-property-no-redundant-values
+ 14:29  ✖  Expected linebreak to be unix                        linebreaks
+ 15:14  ✖  Expected linebreak to be unix                        linebreaks
+ 16:2   ✖  Expected linebreak to be unix                        linebreaks
+ 17:1   ✖  Expected linebreak to be unix                        linebreaks
+ 18:16  ✖  Expected linebreak to be unix                        linebreaks
+ 19:22  ✖  Expected linebreak to be unix                        linebreaks
+ 20:3   ✖  Expected margin to come before text-align            order/properties-alphabetical-order
+ 20:3   ✖  Expected "50px 15px 50px 15px" to be "50px 15px"     shorthand-property-no-redundant-values
+ 20:31  ✖  Expected linebreak to be unix                        linebreaks
+ 21:14  ✖  Expected linebreak to be unix                        linebreaks
+ 22:3   ✖  Expected font-size to come before padding            order/properties-alphabetical-order
+ 22:21  ✖  Expected linebreak to be unix                        linebreaks
+ 23:2   ✖  Expected linebreak to be unix                        linebreaks
+ 24:1   ✖  Expected linebreak to be unix                        linebreaks
+ 25:19  ✖  Expected linebreak to be unix                        linebreaks
+ 26:17  ✖  Expected linebreak to be unix                        linebreaks
+ 27:23  ✖  Expected linebreak to be unix                        linebreaks
+ 28:3   ✖  Expected shorthand property "flex-flow"              declaration-block-no-redundant-longhand-properties
+ 28:19  ✖  Expected linebreak to be unix                        linebreaks
+ 29:27  ✖  Expected linebreak to be unix                        linebreaks
+ 30:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+ 30:23  ✖  Expected linebreak to be unix                        linebreaks
+ 31:13  ✖  Expected linebreak to be unix                        linebreaks
+ 32:14  ✖  Expected linebreak to be unix                        linebreaks
+ 33:2   ✖  Expected linebreak to be unix                        linebreaks
+ 34:1   ✖  Expected linebreak to be unix                        linebreaks
+ 35:18  ✖  Expected linebreak to be unix                        linebreaks
+ 36:21  ✖  Expected linebreak to be unix                        linebreaks
+ 37:3   ✖  Expected background-color to come before padding     order/properties-alphabetical-order
+ 37:21  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 37:29  ✖  Expected linebreak to be unix                        linebreaks
+ 38:10  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+ 38:18  ✖  Expected linebreak to be unix                        linebreaks
+ 39:3   ✖  Expected border-radius to come before color          order/properties-alphabetical-order
+ 39:22  ✖  Expected linebreak to be unix                        linebreaks
+ 40:48  ✖  Expected linebreak to be unix                        linebreaks
+ 41:3   ✖  Expected border to come before box-shadow            order/properties-alphabetical-order
+ 41:16  ✖  Expected linebreak to be unix                        linebreaks
+ 42:15  ✖  Expected linebreak to be unix                        linebreaks
+ 43:3   ✖  Expected font-weight to come before margin           order/properties-alphabetical-order
+ 43:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+ 43:21  ✖  Expected linebreak to be unix                        linebreaks
+ 44:2   ✖  Expected linebreak to be unix                        linebreaks
+ 45:1   ✖  Expected linebreak to be unix                        linebreaks
+ 46:24  ✖  Expected linebreak to be unix                        linebreaks
+ 47:21  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+ 47:29  ✖  Expected linebreak to be unix                        linebreaks
+ 48:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 48:18  ✖  Expected linebreak to be unix                        linebreaks
+ 49:3   ✖  Expected border to come before color                 order/properties-alphabetical-order
+ 49:16  ✖  Expected linebreak to be unix                        linebreaks
+ 50:1   ✖  Unexpected missing end-of-source newline             no-missing-end-of-source-newline
+
+src/Recipes/RecipeInProgress.css
+   1:25  ✖  Expected linebreak to be unix                           linebreaks
+   2:17  ✖  Expected linebreak to be unix                           linebreaks
+   3:26  ✖  Expected linebreak to be unix                           linebreaks
+   4:27  ✖  Expected linebreak to be unix                           linebreaks
+   5:3   ✖  Expected align-items to come before justify-content     order/properties-alphabetical-order
+   5:23  ✖  Expected linebreak to be unix                           linebreaks
+   6:13  ✖  Expected linebreak to be unix                           linebreaks
+   7:14  ✖  Expected linebreak to be unix                           linebreaks
+   8:17  ✖  Expected linebreak to be unix                           linebreaks
+   9:3   ✖  Expected margin-top to come before width                order/properties-alphabetical-order
+   9:19  ✖  Expected linebreak to be unix                           linebreaks
+  10:2   ✖  Expected linebreak to be unix                           linebreaks
+  11:1   ✖  Expected linebreak to be unix                           linebreaks
+  12:19  ✖  Expected linebreak to be unix                           linebreaks
+  13:16  ✖  Expected linebreak to be unix                           linebreaks
+  14:2   ✖  Expected linebreak to be unix                           linebreaks
+  15:1   ✖  Expected linebreak to be unix                           linebreaks
+  16:17  ✖  Expected linebreak to be unix                           linebreaks
+  17:19  ✖  Expected linebreak to be unix                           linebreaks
+  18:3   ✖  Expected margin-left to come before margin-top          order/properties-alphabetical-order
+  18:20  ✖  Expected linebreak to be unix                           linebreaks
+  19:21  ✖  Expected linebreak to be unix                           linebreaks
+  20:3   ✖  Expected border-radius to come before margin-right      order/properties-alphabetical-order
+  20:22  ✖  Expected linebreak to be unix                           linebreaks
+  21:3   ✖  Expected background-color to come before border-radius  order/properties-alphabetical-order
+  21:27  ✖  Expected linebreak to be unix                           linebreaks
+  22:16  ✖  Expected linebreak to be unix                           linebreaks
+  23:3   ✖  Expected border to come before padding                  order/properties-alphabetical-order
+  23:21  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  23:29  ✖  Expected linebreak to be unix                           linebreaks
+  24:2   ✖  Expected linebreak to be unix                           linebreaks
+  25:1   ✖  Expected linebreak to be unix                           linebreaks
+  26:23  ✖  Expected linebreak to be unix                           linebreaks
+  27:21  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  27:29  ✖  Expected linebreak to be unix                           linebreaks
+  28:2   ✖  Expected linebreak to be unix                           linebreaks
+  29:1   ✖  Expected linebreak to be unix                           linebreaks
+  30:11  ✖  Expected linebreak to be unix                           linebreaks
+  31:17  ✖  Expected linebreak to be unix                           linebreaks
+  32:3   ✖  Expected cursor to come before width                    order/properties-alphabetical-order
+  32:19  ✖  Expected linebreak to be unix                           linebreaks
+  33:17  ✖  Expected linebreak to be unix                           linebreaks
+  34:23  ✖  Expected linebreak to be unix                           linebreaks
+  35:29  ✖  Expected linebreak to be unix                           linebreaks
+  36:3   ✖  Expected align-items to come before justify-content     order/properties-alphabetical-order
+  36:23  ✖  Expected linebreak to be unix                           linebreaks
+  37:12  ✖  Unexpected unit                                         length-zero-no-unit
+  37:15  ✖  Expected linebreak to be unix                           linebreaks
+  38:2   ✖  Expected linebreak to be unix                           linebreaks
+  39:1   ✖  Expected linebreak to be unix                           linebreaks
+  40:21  ✖  Expected linebreak to be unix                           linebreaks
+  41:17  ✖  Expected linebreak to be unix                           linebreaks
+  42:3   ✖  Expected background-color to come before width          order/properties-alphabetical-order
+  42:21  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  42:29  ✖  Expected linebreak to be unix                           linebreaks
+  43:22  ✖  Expected linebreak to be unix                           linebreaks
+  44:3   ✖  Expected font-size to come before text-align            order/properties-alphabetical-order
+  44:21  ✖  Expected linebreak to be unix                           linebreaks
+  45:19  ✖  Expected linebreak to be unix                           linebreaks
+  46:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  46:20  ✖  Expected linebreak to be unix                           linebreaks
+  47:3   ✖  Expected color to come before margin-bottom             order/properties-alphabetical-order
+  47:10  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  47:18  ✖  Expected linebreak to be unix                           linebreaks
+  48:2   ✖  Expected linebreak to be unix                           linebreaks
+  49:1   ✖  Expected linebreak to be unix                           linebreaks
+  50:24  ✖  Expected linebreak to be unix                           linebreaks
+  51:17  ✖  Expected linebreak to be unix                           linebreaks
+  52:3   ✖  Expected background-color to come before width          order/properties-alphabetical-order
+  52:21  ✖  Expected "#FCDC36" to be "#fcdc36"                      color-hex-case
+  52:29  ✖  Expected linebreak to be unix                           linebreaks
+  53:22  ✖  Expected linebreak to be unix                           linebreaks
+  54:3   ✖  Expected font-size to come before text-align            order/properties-alphabetical-order
+  54:21  ✖  Expected linebreak to be unix                           linebreaks
+  55:17  ✖  Expected linebreak to be unix                           linebreaks
+  56:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  56:20  ✖  Expected linebreak to be unix                           linebreaks
+  57:3   ✖  Expected color to come before margin-bottom             order/properties-alphabetical-order
+  57:10  ✖  Expected "#41197F" to be "#41197f"                      color-hex-case
+  57:18  ✖  Expected linebreak to be unix                           linebreaks
+  58:16  ✖  Expected linebreak to be unix                           linebreaks
+  59:2   ✖  Expected linebreak to be unix                           linebreaks
+  60:1   ✖  Expected linebreak to be unix                           linebreaks
+  61:22  ✖  Expected linebreak to be unix                           linebreaks
+  62:17  ✖  Expected linebreak to be unix                           linebreaks
+  63:3   ✖  Expected text-align to come before width                order/properties-alphabetical-order
+  63:22  ✖  Expected linebreak to be unix                           linebreaks
+  64:2   ✖  Expected linebreak to be unix                           linebreaks
+  65:1   ✖  Expected empty line before rule                         rule-empty-line-before
+  65:21  ✖  Expected linebreak to be unix                           linebreaks
+  66:16  ✖  Expected linebreak to be unix                           linebreaks
+  67:3   ✖  Expected margin-top to come before width                order/properties-alphabetical-order
+  67:19  ✖  Expected linebreak to be unix                           linebreaks
+  68:3   ✖  Expected margin-bottom to come before margin-top        order/properties-alphabetical-order
+  68:23  ✖  Expected linebreak to be unix                           linebreaks
+  69:2   ✖  Expected linebreak to be unix                           linebreaks
+  70:1   ✖  Expected linebreak to be unix                           linebreaks
+  71:28  ✖  Expected linebreak to be unix                           linebreaks
+  72:17  ✖  Expected linebreak to be unix                           linebreaks
+  73:3   ✖  Expected text-align to come before width                order/properties-alphabetical-order
+  73:22  ✖  Expected linebreak to be unix                           linebreaks
+  74:3   ✖  Unexpected duplicate "width"                            declaration-block-no-duplicate-properties
+  74:16  ✖  Expected linebreak to be unix                           linebreaks
+  75:3   ✖  Expected margin to come before width                    order/properties-alphabetical-order
+  75:3   ✖  Expected "10px 20px 50px 20px" to be "10px 20px 50px"   shorthand-property-no-redundant-values
+  75:31  ✖  Expected linebreak to be unix                           linebreaks
+  76:2   ✖  Expected linebreak to be unix                           linebreaks
+  77:1   ✖  Expected linebreak to be unix                           linebreaks
+  78:23  ✖  Expected linebreak to be unix                           linebreaks
+  79:17  ✖  Expected linebreak to be unix                           linebreaks
+  80:3   ✖  Expected display to come before width                   order/properties-alphabetical-order
+  80:17  ✖  Expected linebreak to be unix                           linebreaks
+  81:23  ✖  Expected linebreak to be unix                           linebreaks
+  82:33  ✖  Expected linebreak to be unix                           linebreaks
+  83:3   ✖  Expected align-items to come before justify-content     order/properties-alphabetical-order
+  83:23  ✖  Expected linebreak to be unix                           linebreaks
+  84:13  ✖  Expected linebreak to be unix                           linebreaks
+  85:3   ✖  Expected border to come before bottom                   order/properties-alphabetical-order
+  85:27  ✖  Expected linebreak to be unix                           linebreaks
+  86:16  ✖  Expected linebreak to be unix                           linebreaks
+  87:2   ✖  Expected linebreak to be unix                           linebreaks
+  88:1   ✖  Expected linebreak to be unix                           linebreaks
+  89:21  ✖  Expected linebreak to be unix                           linebreaks
+  90:17  ✖  Expected linebreak to be unix                           linebreaks
+  91:3   ✖  Expected background-color to come before width          order/properties-alphabetical-order
+  91:40  ✖  Expected linebreak to be unix                           linebreaks
+  92:10  ✖  Expected "#000" to be "black"                           color-named
+  92:15  ✖  Expected linebreak to be unix                           linebreaks
+  93:3   ✖  Expected border to come before color                    order/properties-alphabetical-order
+  93:16  ✖  Expected linebreak to be unix                           linebreaks
+  94:17  ✖  Expected linebreak to be unix                           linebreaks
+  95:3   ✖  Expected margin to come before padding                  order/properties-alphabetical-order
+  95:13  ✖  Expected linebreak to be unix                           linebreaks
+  96:3   ✖  Expected font-weight to come before margin              order/properties-alphabetical-order
+  96:20  ✖  Expected linebreak to be unix                           linebreaks
+  97:19  ✖  Expected linebreak to be unix                           linebreaks
+  98:3   ✖  Expected bottom to come before position                 order/properties-alphabetical-order
+  98:13  ✖  Expected linebreak to be unix                           linebreaks
+  99:23  ✖  Expected linebreak to be unix                           linebreaks
+ 100:2   ✖  Expected linebreak to be unix                           linebreaks
+ 101:1   ✖  Expected linebreak to be unix                           linebreaks
+ 102:29  ✖  Expected linebreak to be unix                           linebreaks
+ 103:27  ✖  Expected linebreak to be unix                           linebreaks
+ 104:10  ✖  Expected "#000" to be "black"                           color-named
+ 104:15  ✖  Expected linebreak to be unix                           linebreaks
+ 105:19  ✖  Expected linebreak to be unix                           linebreaks
+ 106:2   ✖  Expected linebreak to be unix                           linebreaks
+ 107:1   ✖  Expected linebreak to be unix                           linebreaks
+
+src/Recipes/Recipes.css
+   1:21  ✖  Expected linebreak to be unix                        linebreaks
+   2:17  ✖  Expected linebreak to be unix                        linebreaks
+   3:26  ✖  Expected linebreak to be unix                        linebreaks
+   4:27  ✖  Expected linebreak to be unix                        linebreaks
+   5:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+   5:23  ✖  Expected linebreak to be unix                        linebreaks
+   6:13  ✖  Expected linebreak to be unix                        linebreaks
+   7:14  ✖  Expected linebreak to be unix                        linebreaks
+   8:17  ✖  Expected linebreak to be unix                        linebreaks
+   9:2   ✖  Expected linebreak to be unix                        linebreaks
+  10:1   ✖  Expected linebreak to be unix                        linebreaks
+  11:24  ✖  Expected linebreak to be unix                        linebreaks
+  12:17  ✖  Expected linebreak to be unix                        linebreaks
+  13:26  ✖  Expected linebreak to be unix                        linebreaks
+  14:27  ✖  Expected linebreak to be unix                        linebreaks
+  15:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+  15:23  ✖  Expected linebreak to be unix                        linebreaks
+  16:13  ✖  Expected linebreak to be unix                        linebreaks
+  17:14  ✖  Expected linebreak to be unix                        linebreaks
+  18:17  ✖  Expected linebreak to be unix                        linebreaks
+  19:3   ✖  Expected empty line before comment                   comment-empty-line-before
+  19:46  ✖  Expected linebreak to be unix                        linebreaks
+  20:2   ✖  Expected linebreak to be unix                        linebreaks
+  21:1   ✖  Expected linebreak to be unix                        linebreaks
+  22:27  ✖  Expected linebreak to be unix                        linebreaks
+  23:16  ✖  Unexpected quotes around "Pacifico"                  font-family-name-quotes
+  23:26  ✖  Expected single space before ","                     value-list-comma-space-before
+  23:36  ✖  Expected linebreak to be unix                        linebreaks
+  24:3   ✖  Expected color to come before font-family            order/properties-alphabetical-order
+  24:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  24:18  ✖  Expected linebreak to be unix                        linebreaks
+  25:19  ✖  Expected linebreak to be unix                        linebreaks
+  26:20  ✖  Expected linebreak to be unix                        linebreaks
+  27:13  ✖  Expected linebreak to be unix                        linebreaks
+  28:14  ✖  Expected linebreak to be unix                        linebreaks
+  29:3   ✖  Expected margin-bottom to come before padding        order/properties-alphabetical-order
+  29:23  ✖  Expected linebreak to be unix                        linebreaks
+  30:2   ✖  Expected linebreak to be unix                        linebreaks
+  31:1   ✖  Expected linebreak to be unix                        linebreaks
+  32:22  ✖  Expected linebreak to be unix                        linebreaks
+  33:17  ✖  Expected linebreak to be unix                        linebreaks
+  34:23  ✖  Expected linebreak to be unix                        linebreaks
+  35:3   ✖  Expected shorthand property "flex-flow"              declaration-block-no-redundant-longhand-properties
+  35:19  ✖  Expected linebreak to be unix                        linebreaks
+  36:27  ✖  Expected linebreak to be unix                        linebreaks
+  37:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+  37:23  ✖  Expected linebreak to be unix                        linebreaks
+  38:15  ✖  Expected linebreak to be unix                        linebreaks
+  39:14  ✖  Expected linebreak to be unix                        linebreaks
+  40:17  ✖  Expected linebreak to be unix                        linebreaks
+  41:2   ✖  Expected linebreak to be unix                        linebreaks
+  42:1   ✖  Expected linebreak to be unix                        linebreaks
+  43:19  ✖  Expected linebreak to be unix                        linebreaks
+  44:21  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+  44:29  ✖  Expected linebreak to be unix                        linebreaks
+  45:15  ✖  Expected linebreak to be unix                        linebreaks
+  46:3   ✖  Expected border to come before margin                order/properties-alphabetical-order
+  46:10  ✖  Expected single space after ":"                      declaration-colon-space-after
+  46:15  ✖  Expected linebreak to be unix                        linebreaks
+  47:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  47:18  ✖  Expected linebreak to be unix                        linebreaks
+  48:3   ✖  Expected box-shadow to come before color             order/properties-alphabetical-order
+  48:27  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  48:35  ✖  Expected linebreak to be unix                        linebreaks
+  49:21  ✖  Expected linebreak to be unix                        linebreaks
+  50:3   ✖  Expected font-weight to come before padding          order/properties-alphabetical-order
+  50:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+  50:21  ✖  Expected linebreak to be unix                        linebreaks
+  51:3   ✖  Expected border-radius to come before font-weight    order/properties-alphabetical-order
+  51:23  ✖  Expected linebreak to be unix                        linebreaks
+  52:2   ✖  Expected linebreak to be unix                        linebreaks
+  53:1   ✖  Expected linebreak to be unix                        linebreaks
+  54:25  ✖  Expected linebreak to be unix                        linebreaks
+  55:21  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+  55:29  ✖  Expected linebreak to be unix                        linebreaks
+  56:10  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+  56:18  ✖  Expected linebreak to be unix                        linebreaks
+  57:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+  57:21  ✖  Expected linebreak to be unix                        linebreaks
+  58:2   ✖  Expected linebreak to be unix                        linebreaks
+  59:1   ✖  Expected linebreak to be unix                        linebreaks
+  60:14  ✖  Expected linebreak to be unix                        linebreaks
+  61:17  ✖  Expected linebreak to be unix                        linebreaks
+  62:23  ✖  Expected linebreak to be unix                        linebreaks
+  63:3   ✖  Expected shorthand property "flex-flow"              declaration-block-no-redundant-longhand-properties
+  63:19  ✖  Expected linebreak to be unix                        linebreaks
+  64:27  ✖  Expected linebreak to be unix                        linebreaks
+  65:22  ✖  Expected linebreak to be unix                        linebreaks
+  66:3   ✖  Expected margin to come before text-align            order/properties-alphabetical-order
+  66:13  ✖  Expected linebreak to be unix                        linebreaks
+  67:23  ✖  Expected linebreak to be unix                        linebreaks
+  68:14  ✖  Expected linebreak to be unix                        linebreaks
+  69:3   ✖  Expected max-width to come before padding            order/properties-alphabetical-order
+  69:21  ✖  Expected linebreak to be unix                        linebreaks
+  70:17  ✖  Expected linebreak to be unix                        linebreaks
+  71:3   ✖  Expected overflow-y to come before width             order/properties-alphabetical-order
+  71:22  ✖  Expected linebreak to be unix                        linebreaks
+  72:2   ✖  Expected linebreak to be unix                        linebreaks
+  73:1   ✖  Expected linebreak to be unix                        linebreaks
+  74:20  ✖  Expected linebreak to be unix                        linebreaks
+  75:25  ✖  Expected linebreak to be unix                        linebreaks
+  76:3   ✖  Expected color to come before text-decoration        order/properties-alphabetical-order
+  76:16  ✖  Expected linebreak to be unix                        linebreaks
+  77:15  ✖  Expected linebreak to be unix                        linebreaks
+  78:16  ✖  Expected linebreak to be unix                        linebreaks
+  79:3   ✖  Expected border-radius to come before padding        order/properties-alphabetical-order
+  79:23  ✖  Expected linebreak to be unix                        linebreaks
+  80:48  ✖  Expected linebreak to be unix                        linebreaks
+  81:16  ✖  Expected linebreak to be unix                        linebreaks
+  82:3   ✖  Expected height to come before width                 order/properties-alphabetical-order
+  82:16  ✖  Expected linebreak to be unix                        linebreaks
+  83:2   ✖  Expected linebreak to be unix                        linebreaks
+  84:1   ✖  Expected linebreak to be unix                        linebreaks
+  85:26  ✖  Expected linebreak to be unix                        linebreaks
+  86:29  ✖  Expected linebreak to be unix                        linebreaks
+  87:16  ✖  Expected linebreak to be unix                        linebreaks
+  88:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+  88:21  ✖  Expected linebreak to be unix                        linebreaks
+  89:2   ✖  Expected linebreak to be unix                        linebreaks
+  90:1   ✖  Expected linebreak to be unix                        linebreaks
+  91:23  ✖  Expected linebreak to be unix                        linebreaks
+  92:17  ✖  Expected linebreak to be unix                        linebreaks
+  93:27  ✖  Expected linebreak to be unix                        linebreaks
+  94:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+  94:23  ✖  Expected linebreak to be unix                        linebreaks
+  95:19  ✖  Expected linebreak to be unix                        linebreaks
+  96:22  ✖  Expected linebreak to be unix                        linebreaks
+  97:19  ✖  Expected linebreak to be unix                        linebreaks
+  98:2   ✖  Expected linebreak to be unix                        linebreaks
+  99:1   ✖  Expected linebreak to be unix                        linebreaks
+ 100:14  ✖  Expected linebreak to be unix                        linebreaks
+ 101:16  ✖  Expected linebreak to be unix                        linebreaks
+ 102:3   ✖  Expected height to come before width                 order/properties-alphabetical-order
+ 102:17  ✖  Expected linebreak to be unix                        linebreaks
+ 103:1   ✖  Unexpected missing end-of-source newline             no-missing-end-of-source-newline
+
+src/components/Carousel.css
+  5:3   ✖  Expected margin-bottom to come before margin-top  order/properties-alphabetical-order
+  8:3   ✖  Expected overflow-x to come before width          order/properties-alphabetical-order
+ 13:3   ✖  Expected color to come before text-decoration     order/properties-alphabetical-order
+ 14:3   ✖  Expected "5px 5px 15px 5px" to be "5px 5px 15px"  shorthand-property-no-redundant-values
+ 14:28  ✖  Expected newline after ";"                        declaration-block-semicolon-newline-after
+ 14:28  ✖  Unexpected whitespace at end of line              no-eol-whitespace
+ 16:3   ✖  Expected border-radius to come before padding     order/properties-alphabetical-order
+ 19:3   ✖  Expected height to come before width              order/properties-alphabetical-order
+ 21:3   ✖  Expected cursor to come before text-align         order/properties-alphabetical-order
+ 27:16  ✖  Expected "bold" to be "700"                       font-weight-notation
+ 32:3   ✖  Expected height to come before width              order/properties-alphabetical-order
+
+src/components/Footer.css
+  1:9   ✖  Expected linebreak to be unix                            linebreaks
+  2:17  ✖  Expected linebreak to be unix                            linebreaks
+  3:23  ✖  Expected linebreak to be unix                            linebreaks
+  4:3   ✖  Expected background-color to come before flex-direction  order/properties-alphabetical-order
+  4:21  ✖  Expected "#41197F" to be "#41197f"                       color-hex-case
+  4:29  ✖  Expected linebreak to be unix                            linebreaks
+  5:16  ✖  Expected linebreak to be unix                            linebreaks
+  6:17  ✖  Expected linebreak to be unix                            linebreaks
+  7:3   ✖  Expected max-width to come before width                  order/properties-alphabetical-order
+  7:21  ✖  Expected linebreak to be unix                            linebreaks
+  8:3   ✖  Expected justify-content to come before max-width        order/properties-alphabetical-order
+  8:27  ✖  Expected linebreak to be unix                            linebreaks
+  9:19  ✖  Expected linebreak to be unix                            linebreaks
+ 10:3   ✖  Expected bottom to come before position                  order/properties-alphabetical-order
+ 10:13  ✖  Expected linebreak to be unix                            linebreaks
+ 11:2   ✖  Expected linebreak to be unix                            linebreaks
+ 12:1   ✖  Expected linebreak to be unix                            linebreaks
+ 13:18  ✖  Expected linebreak to be unix                            linebreaks
+ 14:21  ✖  Expected "#41197F" to be "#41197f"                       color-hex-case
+ 14:29  ✖  Expected linebreak to be unix                            linebreaks
+ 15:21  ✖  Expected linebreak to be unix                            linebreaks
+ 16:20  ✖  Expected linebreak to be unix                            linebreaks
+ 17:17  ✖  Expected linebreak to be unix                            linebreaks
+ 18:3   ✖  Expected border-radius to come before padding            order/properties-alphabetical-order
+ 18:22  ✖  Expected linebreak to be unix                            linebreaks
+ 19:19  ✖  Expected linebreak to be unix                            linebreaks
+ 20:21  ✖  Expected linebreak to be unix                            linebreaks
+ 21:22  ✖  Expected linebreak to be unix                            linebreaks
+ 22:2   ✖  Expected linebreak to be unix                            linebreaks
+ 23:1   ✖  Expected linebreak to be unix                            linebreaks
+ 24:24  ✖  Expected linebreak to be unix                            linebreaks
+ 25:21  ✖  Expected "#FCDC36" to be "#fcdc36"                       color-hex-case
+ 25:29  ✖  Expected linebreak to be unix                            linebreaks
+ 26:3   ✖  Expected background-color to come before border          order/properties-alphabetical-order
+ 26:21  ✖  Expected "#FCDC36" to be "#fcdc36"                       color-hex-case
+ 26:29  ✖  Expected linebreak to be unix                            linebreaks
+ 27:1   ✖  Unexpected missing end-of-source newline                 no-missing-end-of-source-newline
+
+src/components/Header.css
+  1:25  ✖  Expected linebreak to be unix                                       linebreaks
+  2:17  ✖  Expected linebreak to be unix                                       linebreaks
+  3:26  ✖  Expected linebreak to be unix                                       linebreaks
+  4:3   ✖  Expected align-items to come before flex-direction                  order/properties-alphabetical-order
+  4:23  ✖  Expected linebreak to be unix                                       linebreaks
+  5:13  ✖  Expected linebreak to be unix                                       linebreaks
+  6:14  ✖  Expected linebreak to be unix                                       linebreaks
+  7:3   ✖  Expected max-width to come before padding                           order/properties-alphabetical-order
+  7:21  ✖  Expected linebreak to be unix                                       linebreaks
+  8:2   ✖  Expected linebreak to be unix                                       linebreaks
+  9:1   ✖  Expected linebreak to be unix                                       linebreaks
+ 10:15  ✖  Expected linebreak to be unix                                       linebreaks
+ 11:16  ✖  Expected linebreak to be unix                                       linebreaks
+ 12:19  ✖  Expected linebreak to be unix                                       linebreaks
+ 13:20  ✖  Expected linebreak to be unix                                       linebreaks
+ 14:13  ✖  Expected linebreak to be unix                                       linebreaks
+ 15:14  ✖  Expected linebreak to be unix                                       linebreaks
+ 16:5   ✖  Expected linebreak to be unix                                       linebreaks
+ 17:1   ✖  Expected linebreak to be unix                                       linebreaks
+ 18:20  ✖  Expected linebreak to be unix                                       linebreaks
+ 19:17  ✖  Expected linebreak to be unix                                       linebreaks
+ 20:3   ✖  Expected align-items to come before display                         order/properties-alphabetical-order
+ 20:23  ✖  Expected linebreak to be unix                                       linebreaks
+ 21:21  ✖  Expected "#41197F" to be "#41197f"                                  color-hex-case
+ 21:29  ✖  Expected linebreak to be unix                                       linebreaks
+ 22:34  ✖  Expected linebreak to be unix                                       linebreaks
+ 23:17  ✖  Expected linebreak to be unix                                       linebreaks
+ 24:17  ✖  Expected linebreak to be unix                                       linebreaks
+ 25:3   ✖  Expected max-width to come before width                             order/properties-alphabetical-order
+ 25:21  ✖  Expected linebreak to be unix                                       linebreaks
+ 26:2   ✖  Expected linebreak to be unix                                       linebreaks
+ 27:1   ✖  Expected linebreak to be unix                                       linebreaks
+ 28:15  ✖  Expected linebreak to be unix                                       linebreaks
+ 29:16  ✖  Unexpected quotes around "Pacifico"                                 font-family-name-quotes
+ 29:26  ✖  Expected single space before ","                                    value-list-comma-space-before
+ 29:36  ✖  Expected linebreak to be unix                                       linebreaks
+ 30:3   ✖  Expected color to come before font-family                           order/properties-alphabetical-order
+ 30:10  ✖  Expected "#FCDC36" to be "#fcdc36"                                  color-hex-case
+ 30:18  ✖  Expected linebreak to be unix                                       linebreaks
+ 31:19  ✖  Expected linebreak to be unix                                       linebreaks
+ 32:20  ✖  Expected linebreak to be unix                                       linebreaks
+ 33:13  ✖  Expected linebreak to be unix                                       linebreaks
+ 34:14  ✖  Expected linebreak to be unix                                       linebreaks
+ 35:2   ✖  Expected linebreak to be unix                                       linebreaks
+ 36:1   ✖  Expected linebreak to be unix                                       linebreaks
+ 37:33  ✖  Expected linebreak to be unix                                       linebreaks
+ 38:21  ✖  Expected "#41197F" to be "#41197f"                                  color-hex-case
+ 38:29  ✖  Expected linebreak to be unix                                       linebreaks
+ 39:17  ✖  Expected linebreak to be unix                                       linebreaks
+ 40:3   ✖  Expected border-radius to come before padding                       order/properties-alphabetical-order
+ 40:22  ✖  Expected linebreak to be unix                                       linebreaks
+ 41:19  ✖  Expected linebreak to be unix                                       linebreaks
+ 42:15  ✖  Expected linebreak to be unix                                       linebreaks
+ 43:2   ✖  Expected linebreak to be unix                                       linebreaks
+ 44:1   ✖  Expected linebreak to be unix                                       linebreaks
+ 45:39  ✖  Expected linebreak to be unix                                       linebreaks
+ 46:21  ✖  Expected "#FCDC36" to be "#fcdc36"                                  color-hex-case
+ 46:29  ✖  Expected linebreak to be unix                                       linebreaks
+ 47:3   ✖  Expected background-color to come before border                     order/properties-alphabetical-order
+ 47:21  ✖  Expected "#FCDC36" to be "#fcdc36"                                  color-hex-case
+ 47:29  ✖  Expected linebreak to be unix                                       linebreaks
+ 48:2   ✖  Expected linebreak to be unix                                       linebreaks
+ 49:1   ✖  Expected linebreak to be unix                                       linebreaks
+ 50:14  ✖  Expected linebreak to be unix                                       linebreaks
+ 51:21  ✖  Expected "#FCDC36" to be "#fcdc36"                                  color-hex-case
+ 51:29  ✖  Expected linebreak to be unix                                       linebreaks
+ 52:16  ✖  Unexpected quotes around "Pacifico"                                 font-family-name-quotes
+ 52:26  ✖  Expected single space before ","                                    value-list-comma-space-before
+ 52:36  ✖  Expected linebreak to be unix                                       linebreaks
+ 53:3   ✖  Expected color to come before font-family                           order/properties-alphabetical-order
+ 53:21  ✖  Expected linebreak to be unix                                       linebreaks
+ 54:19  ✖  Expected linebreak to be unix                                       linebreaks
+ 55:20  ✖  Expected linebreak to be unix                                       linebreaks
+ 56:3   ✖  Expected "10px 0px 18px 0px" to be "10px 0px 18px"                  shorthand-property-no-redundant-values
+ 56:18  ✖  Unexpected unit                                                     length-zero-no-unit
+ 56:27  ✖  Unexpected unit                                                     length-zero-no-unit
+ 56:29  ✖  Unexpected whitespace before ";" in a multi-line declaration block  declaration-block-semicolon-newline-before
+ 56:31  ✖  Expected linebreak to be unix                                       linebreaks
+ 57:3   ✖  Expected display to come before padding                             order/properties-alphabetical-order
+ 57:17  ✖  Expected linebreak to be unix                                       linebreaks
+ 58:27  ✖  Expected linebreak to be unix                                       linebreaks
+ 59:3   ✖  Expected align-items to come before justify-content                 order/properties-alphabetical-order
+ 59:23  ✖  Expected linebreak to be unix                                       linebreaks
+ 60:22  ✖  Expected linebreak to be unix                                       linebreaks
+ 61:17  ✖  Expected linebreak to be unix                                       linebreaks
+ 62:3   ✖  Expected margin to come before width                                order/properties-alphabetical-order
+ 62:13  ✖  Expected linebreak to be unix                                       linebreaks
+ 63:3   ✖  Expected color to come before margin                                order/properties-alphabetical-order
+ 63:3   ✖  Unexpected duplicate "color"                                        declaration-block-no-duplicate-properties
+ 63:10  ✖  Expected "#41197F" to be "#41197f"                                  color-hex-case
+ 63:18  ✖  Expected linebreak to be unix                                       linebreaks
+ 64:2   ✖  Expected linebreak to be unix                                       linebreaks
+
+src/components/NotFound.css
+  1:23  ✖  Expected linebreak to be unix                        linebreaks
+  2:17  ✖  Expected linebreak to be unix                        linebreaks
+  3:26  ✖  Expected linebreak to be unix                        linebreaks
+  4:3   ✖  Expected align-items to come before flex-direction   order/properties-alphabetical-order
+  4:23  ✖  Expected linebreak to be unix                        linebreaks
+  5:13  ✖  Expected linebreak to be unix                        linebreaks
+  6:14  ✖  Expected linebreak to be unix                        linebreaks
+  7:3   ✖  Expected max-width to come before padding            order/properties-alphabetical-order
+  7:21  ✖  Expected linebreak to be unix                        linebreaks
+  8:2   ✖  Expected linebreak to be unix                        linebreaks
+  9:1   ✖  Expected linebreak to be unix                        linebreaks
+ 10:7   ✖  Expected linebreak to be unix                        linebreaks
+ 11:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 11:18  ✖  Expected linebreak to be unix                        linebreaks
+ 12:19  ✖  Expected linebreak to be unix                        linebreaks
+ 13:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+ 13:21  ✖  Expected linebreak to be unix                        linebreaks
+ 14:13  ✖  Expected linebreak to be unix                        linebreaks
+ 15:14  ✖  Expected linebreak to be unix                        linebreaks
+ 16:3   ✖  Expected margin to come before padding               order/properties-alphabetical-order
+ 16:3   ✖  Unexpected duplicate "margin"                        declaration-block-no-duplicate-properties
+ 16:16  ✖  Expected linebreak to be unix                        linebreaks
+ 17:2   ✖  Expected linebreak to be unix                        linebreaks
+ 18:1   ✖  Expected linebreak to be unix                        linebreaks
+ 19:11  ✖  Expected linebreak to be unix                        linebreaks
+ 20:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 20:18  ✖  Expected linebreak to be unix                        linebreaks
+ 21:21  ✖  Expected linebreak to be unix                        linebreaks
+ 22:16  ✖  Expected numeric font-weight notation                font-weight-notation
+ 22:24  ✖  Expected linebreak to be unix                        linebreaks
+ 23:16  ✖  Expected linebreak to be unix                        linebreaks
+ 24:22  ✖  Expected linebreak to be unix                        linebreaks
+ 25:2   ✖  Expected linebreak to be unix                        linebreaks
+ 26:1   ✖  Expected linebreak to be unix                        linebreaks
+ 27:21  ✖  Expected linebreak to be unix                        linebreaks
+ 28:17  ✖  Expected linebreak to be unix                        linebreaks
+ 29:23  ✖  Expected linebreak to be unix                        linebreaks
+ 30:27  ✖  Expected linebreak to be unix                        linebreaks
+ 31:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+ 31:23  ✖  Expected linebreak to be unix                        linebreaks
+ 32:16  ✖  Expected linebreak to be unix                        linebreaks
+ 33:2   ✖  Expected linebreak to be unix                        linebreaks
+ 34:1   ✖  Expected linebreak to be unix                        linebreaks
+ 35:20  ✖  Expected linebreak to be unix                        linebreaks
+ 36:17  ✖  Expected linebreak to be unix                        linebreaks
+ 37:3   ✖  Expected background-color to come before padding     order/properties-alphabetical-order
+ 37:21  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+ 37:29  ✖  Expected linebreak to be unix                        linebreaks
+ 38:22  ✖  Expected linebreak to be unix                        linebreaks
+ 39:3   ✖  Expected border to come before border-radius         order/properties-alphabetical-order
+ 39:21  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+ 39:29  ✖  Expected linebreak to be unix                        linebreaks
+ 40:37  ✖  Expected linebreak to be unix                        linebreaks
+ 41:3   ✖  Expected border to come before box-shadow            order/properties-alphabetical-order
+ 41:3   ✖  Unexpected duplicate "border"                        declaration-block-no-duplicate-properties
+ 41:16  ✖  Expected linebreak to be unix                        linebreaks
+ 42:15  ✖  Expected linebreak to be unix                        linebreaks
+ 43:3   ✖  Expected font-weight to come before margin           order/properties-alphabetical-order
+ 43:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+ 43:21  ✖  Expected linebreak to be unix                        linebreaks
+ 44:3   ✖  Expected border-radius to come before font-weight    order/properties-alphabetical-order
+ 44:3   ✖  Unexpected duplicate "border-radius"                 declaration-block-no-duplicate-properties
+ 44:22  ✖  Expected linebreak to be unix                        linebreaks
+ 45:2   ✖  Expected linebreak to be unix                        linebreaks
+ 46:1   ✖  Expected linebreak to be unix                        linebreaks
+ 47:26  ✖  Expected linebreak to be unix                        linebreaks
+ 48:29  ✖  Expected linebreak to be unix                        linebreaks
+ 49:1   ✖  Unexpected missing end-of-source newline             no-missing-end-of-source-newline
+
+src/components/SearchBar.css
+  1:14  ✖  Expected linebreak to be unix                        linebreaks
+  2:17  ✖  Expected linebreak to be unix                        linebreaks
+  3:26  ✖  Expected linebreak to be unix                        linebreaks
+  4:3   ✖  Expected align-items to come before flex-direction   order/properties-alphabetical-order
+  4:23  ✖  Expected linebreak to be unix                        linebreaks
+  5:17  ✖  Expected linebreak to be unix                        linebreaks
+  6:3   ✖  Expected max-width to come before width              order/properties-alphabetical-order
+  6:21  ✖  Expected linebreak to be unix                        linebreaks
+  7:17  ✖  Expected linebreak to be unix                        linebreaks
+  8:2   ✖  Expected linebreak to be unix                        linebreaks
+  9:1   ✖  Expected linebreak to be unix                        linebreaks
+ 10:21  ✖  Expected linebreak to be unix                        linebreaks
+ 11:22  ✖  Expected linebreak to be unix                        linebreaks
+ 12:3   ✖  Expected background-color to come before padding     order/properties-alphabetical-order
+ 12:21  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 12:29  ✖  Expected linebreak to be unix                        linebreaks
+ 13:10  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+ 13:18  ✖  Expected linebreak to be unix                        linebreaks
+ 14:3   ✖  Expected border-radius to come before color          order/properties-alphabetical-order
+ 14:22  ✖  Expected linebreak to be unix                        linebreaks
+ 15:48  ✖  Expected linebreak to be unix                        linebreaks
+ 16:3   ✖  Expected border to come before box-shadow            order/properties-alphabetical-order
+ 16:16  ✖  Expected linebreak to be unix                        linebreaks
+ 17:22  ✖  Expected linebreak to be unix                        linebreaks
+ 18:3   ✖  Expected font-weight to come before margin-bottom    order/properties-alphabetical-order
+ 18:16  ✖  Expected "bold" to be "700"                          font-weight-notation
+ 18:21  ✖  Expected linebreak to be unix                        linebreaks
+ 19:2   ✖  Expected linebreak to be unix                        linebreaks
+ 20:1   ✖  Expected linebreak to be unix                        linebreaks
+ 21:27  ✖  Expected linebreak to be unix                        linebreaks
+ 22:21  ✖  Expected "#FCDC36" to be "#fcdc36"                   color-hex-case
+ 22:29  ✖  Expected linebreak to be unix                        linebreaks
+ 23:10  ✖  Expected "#41197F" to be "#41197f"                   color-hex-case
+ 23:18  ✖  Expected linebreak to be unix                        linebreaks
+ 24:3   ✖  Expected border to come before color                 order/properties-alphabetical-order
+ 24:16  ✖  Expected linebreak to be unix                        linebreaks
+ 25:2   ✖  Expected linebreak to be unix                        linebreaks
+ 26:1   ✖  Expected linebreak to be unix                        linebreaks
+ 27:8   ✖  Expected linebreak to be unix                        linebreaks
+ 28:19  ✖  Expected linebreak to be unix                        linebreaks
+ 29:20  ✖  Expected linebreak to be unix                        linebreaks
+ 30:20  ✖  Expected linebreak to be unix                        linebreaks
+ 31:21  ✖  Expected linebreak to be unix                        linebreaks
+ 32:1   ✖  Expected linebreak to be unix                        linebreaks
+ 33:2   ✖  Expected linebreak to be unix                        linebreaks
+ 34:1   ✖  Expected linebreak to be unix                        linebreaks
+ 35:16  ✖  Expected linebreak to be unix                        linebreaks
+ 36:29  ✖  Expected linebreak to be unix                        linebreaks
+ 37:22  ✖  Expected linebreak to be unix                        linebreaks
+ 38:17  ✖  Expected linebreak to be unix                        linebreaks
+ 39:15  ✖  Expected linebreak to be unix                        linebreaks
+ 40:3   ✖  Expected margin-bottom to come before width          order/properties-alphabetical-order
+ 40:23  ✖  Expected linebreak to be unix                        linebreaks
+ 41:2   ✖  Expected linebreak to be unix                        linebreaks
+ 42:1   ✖  Expected linebreak to be unix                        linebreaks
+ 43:16  ✖  Expected linebreak to be unix                        linebreaks
+ 44:17  ✖  Expected linebreak to be unix                        linebreaks
+ 45:23  ✖  Expected linebreak to be unix                        linebreaks
+ 46:27  ✖  Expected linebreak to be unix                        linebreaks
+ 47:3   ✖  Expected align-items to come before justify-content  order/properties-alphabetical-order
+ 47:23  ✖  Expected linebreak to be unix                        linebreaks
+ 48:22  ✖  Expected linebreak to be unix                        linebreaks
+ 49:2   ✖  Expected linebreak to be unix                        linebreaks
+ 50:1   ✖  Expected linebreak to be unix                        linebreaks
+ 51:15  ✖  Expected linebreak to be unix                        linebreaks
+ 52:20  ✖  Expected linebreak to be unix                        linebreaks
+ 53:22  ✖  Unexpected whitespace at end of line                 no-eol-whitespace
+ 53:23  ✖  Expected linebreak to be unix                        linebreaks
+ 54:1   ✖  Unexpected missing end-of-source newline             no-missing-end-of-source-newline
+
+1390 problems (1390 errors, 0 warnings)
+

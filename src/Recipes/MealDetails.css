@@ -1,0 +1,104 @@
+.meal-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100dvw;
+  margin-top: 2px;
+}
+
+.meal-img {
+  width: 340px;
+}
+
+.fav-share-btn {
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+  border: 2px solid #41197F;
+}
+
+.fav-share-btn:hover {
+  background-color: #FCDC36;
+}
+
+.buttons {
+  width: 100dvw;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px;
+}
+
+.meal-title {
+  width: 100dvw;
+  background-color: #41197F;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #FCDC36;
+}
+
+.meal-category {
+  width: 100dvw;
+  background-color: #FCDC36;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #41197F;
+  padding: 2px;
+}
+
+.ingredients-header {
+  width: 100dvw;
+  text-align: center;
+}
+.ingredients-table {
+  width: 90dvw;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.meal-instructions {
+  width: 100dvw;
+  text-align: center;
+  width: 320px;
+  margin: 10px 20px 10px 20px;
+}
+
+.recommendations-title {
+  width: 100dvw;
+  text-align: center;
+  font-size: 1.75rem;
+  margin-top: 5px;
+  margin-bottom: 0;
+
+}
+
+
+.start-recipe-btn {
+  width: 100dvw;
+  background-color: #41197F;
+  color: #FCDC36;
+  border: none;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+  font-weight: 700;
+  position: fixed;
+  bottom: 0;
+}
+
+.start-recipe-btn:hover {
+  background-color: #FCDC36;
+  color: #41197F;
+}

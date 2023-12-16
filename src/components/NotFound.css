@@ -1,0 +1,49 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  max-width: 100dvw;
+}
+
+.ops {
+  color: #41197F;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin: 10px;
+}
+
+.message {
+  color: #41197F;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 10px;
+  text-align: center;
+}
+
+.not-found-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.not-found-button {
+  padding: 10px;
+  background-color: #FCDC36;
+  border-radius: 5px;
+  border: 1px solid #FCDC36;
+  box-shadow: 1px 2px 5px #42197fc5;
+  border: none;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.not-found-button:hover {
+  background-color: #ceb63c;
+}

@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #41197F;
+  padding: 1px;
+  width: 100dvw;
+  max-width: 100dvw;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-buttons {
+  border: 3px solid #41197F;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.footer-buttons:hover {
+  border: 3px solid #FCDC36;
+  background-color: #FCDC36;
+}

@@ -1,0 +1,120 @@
+.favorite-recipes-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 0;
+  width: 100dvw;
+}
+
+.filter-btn {
+  background-color: #FCDC36;
+  margin: 3px;
+  border:none;
+  color: #41197F;
+  box-shadow: 1px 2px 5px #41197F;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.filter-btn:hover {
+  background-color: #41197F;
+  color: #FCDC36;
+  font-weight: bold;
+}
+
+.favorite-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 70px;
+  padding: 0;
+  max-width: 100dvw;
+  width: 100dvw;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+
+.favorite-list-recipe-name {
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.favorite-list-recipe-data {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.favorite-data {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.favorite-card-link {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.555);
+  width: 170px;
+  height: auto;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.favorite-card-link:hover {
+  background-color: #a4a6a8;
+  color: black;
+}
+
+.favorite-card-link h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.favorite-list-img {
+  width: 150px;
+  height: 150px;
+}
+
+.favorite-recipe-share-btn {
+  background-color: #FCDC36;
+  border:none;
+  color: #41197F;
+  box-shadow: 1px 2px 5px #41197F;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+
+.favorite-recipe-share-btn:hover {
+  background-color: #41197F;
+  color: #FCDC36;
+  font-weight: bold;
+}

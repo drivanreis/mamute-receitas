@@ -1,0 +1,1176 @@
+
+> recipes-app-test@1.0.0 cy
+> env CY_CLI=true cypress run
+
+
+================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        10.11.0                                                                        │
+  │ Browser:        Electron 106 (headless)                                                        │
+  │ Node Version:   v21.0.0 (/home/eu/.nvm/versions/node/v21.0.0/bin/node)                         │
+  │ Specs:          11 found (01.coverage.cy.js, 02-06.login.cy.js, 07-09.header.cy.js, 10-14.head │
+  │                 er_search_bar.cy.js, 15-17.footer.cy.js, 18-22.recipes.cy.js, 23-35.recipe_det │
+  │                 ail.cy.js, 36-42.recipe_in_progress.cy.js, 43-48.done_recipes.cy.js, 49-55.fav │
+  │                 orite_recipes.cy.js, 56...)                                                    │
+  │ Searched:       cypress/e2e/**/*.cy.{js,jsx,ts,tsx}                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  01.coverage.cy.js                                                              (1 of 11)
+
+
+  1 - Desenvolva os testes unitários de maneira que a cobertura seja de, no mínimo, 90%
+    1) Verifica a cobertura de 90% da aplicação total
+
+
+  0 passing (1m)
+  1 failing
+
+  1) 1 - Desenvolva os testes unitários de maneira que a cobertura seja de, no mínimo, 90%
+       Verifica a cobertura de 90% da aplicação total:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+The task handler was:
+
+(id) => id === runnerId ? coverageResult : testCoverage(id)
+
+Fix this in your setupNodeEvents method here:
+/home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress.config.js
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:37857/__cypress/runner/cypress_runner.js:145886:78)
+      at tryCatcher (http://localhost:37857/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:37857/__cypress/runner/cypress_runner.js:6457:37)
+      at tryCatcher (http://localhost:37857/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:37857/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:37857/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:37857/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:37857/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:37857/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:37857/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:37857/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:37857/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_005.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 minute, 1 second                                                               │
+  │ Spec Ran:     01.coverage.cy.js                                                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  02-06.login.cy.js                                                              (2 of 11)
+
+
+  2 - Crie todos os elementos que devem respeitar os atributos descritos no protótipo para a tela de login
+    ✓ Tem os data-testids email-input, password-input e login-submit-btn (6374ms)
+
+  3 - Desenvolva a tela de maneira que a pessoa consiga escrever seu email no input de email e sua senha no input de senha
+    ✓ É possível escrever o email e a senha (5753ms)
+
+  4 - Desenvolva a tela de maneira que o formulário só seja válido após um email válido e uma senha de mais de 6 caracteres serem preenchidos
+    ✓ O botão deve estar desativado se o email for inválido (5866ms)
+    ✓ O botão deve estar desativado se a senha deve tiver 6 caracteres ou menos
+    ✓ O botão deve estar ativado se o email e a senha forem válidos
+    1) Verifica a cobertura de 45% da tela de Login
+
+  5 - Após a submissão do formulário, salve no localStorage o e-mail da pessoa usuária na chave `user`
+    ✓ Após o login, os dados devem estar salvos no localStorage
+
+  6 - Redirecione a pessoa usuária para a tela principal de receitas de comidas após a submissão e validação com sucesso do login
+    ✓ A rota muda para a tela principal de receitas de comidas
+    2) Verifica a cobertura de 90% da tela de Login
+
+
+  7 passing (3m)
+  2 failing
+
+  1) 4 - Desenvolva a tela de maneira que o formulário só seja válido após um email válido e uma senha de mais de 6 caracteres serem preenchidos
+       Verifica a cobertura de 45% da tela de Login:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  2) 6 - Redirecione a pessoa usuária para a tela principal de receitas de comidas após a submissão e validação com sucesso do login
+       Verifica a cobertura de 90% da tela de Login:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_006.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        9                                                                                │
+  │ Passing:      7                                                                                │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 minutes, 41 seconds                                                            │
+  │ Spec Ran:     02-06.login.cy.js                                                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  07-09.header.cy.js                                                             (3 of 11)
+
+
+  7 - Implemente o header de acordo com a necessidade de cada tela
+    ✓ Rota "/": não possui header
+    ✓ Rota "/meals": possui o header com o título "Meals" e os ícones de perfil e pesquisa
+    ✓ Rota "/drinks": possui o header com o título "Drinks" e os ícones de perfil e pesquisa
+    ✓ Rota "/meals/{id-da-receita}": não possui header
+    ✓ Rota "drinks/{id-da-receita}": não possui header
+    ✓ Rota "/meals/{id-da-receita}/in-progress": não possui header
+    ✓ Rota "/drinks/{id-da-receita}/in-progress": não possui header
+    ✓ Rota "/profile": possui o header com o título "Profile" e o ícone de perfil, mas sem o ícone de pesquisa
+    ✓ Rota "/done-recipes": possui o header com o título "Done Recipes" e o ícone de perfil, mas sem o ícone de pesquisa
+    ✓ Rota "/favorite-recipes": possui o header com o título "Favorite Recipes" e o ícone de perfil, mas sem o ícone de pesquisa
+
+  8 - Redirecione a pessoa usuária para a tela de perfil ao clicar no botão de perfil
+    ✓ A mudança de tela ocorre corretamente
+    1) Verifica a cobertura de 45% do Componente Header
+
+  9 - Desenvolva o botão de busca que, ao ser clicado, a barra de busca deve aparecer. O mesmo serve para escondê-la
+    ✓ Ao clicar no botão de busca pela primeira vez a barra de busca aparece
+    ✓ Ao clicar no botão de busca pela segunda vez a barra de busca desaparece (5953ms)
+    2) Verifica a cobertura de 90% do Componente Header
+
+
+  13 passing (3m)
+  2 failing
+
+  1) 8 - Redirecione a pessoa usuária para a tela de perfil ao clicar no botão de perfil
+       Verifica a cobertura de 45% do Componente Header:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+The task handler was:
+
+(id) => id === runnerId ? coverageResult : testCoverage(id)
+
+Fix this in your setupNodeEvents method here:
+/home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress.config.js
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145886:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6457:37)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  2) 9 - Desenvolva o botão de busca que, ao ser clicado, a barra de busca deve aparecer. O mesmo serve para escondê-la
+       Verifica a cobertura de 90% do Componente Header:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+The task handler was:
+
+(id) => id === runnerId ? coverageResult : testCoverage(id)
+
+Fix this in your setupNodeEvents method here:
+/home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress.config.js
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145886:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6457:37)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_007.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        15                                                                               │
+  │ Passing:      13                                                                               │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 minutes, 35 seconds                                                            │
+  │ Spec Ran:     07-09.header.cy.js                                                               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  10-14.header_search_bar.cy.js                                                  (4 of 11)
+
+
+  10 - Implemente os elementos da barra de busca respeitando os atributos descritos no protótipo
+    ✓ Tem os data-testids tanto da barra de busca quanto de todos os radio-buttons
+
+  11 - Implemente 3 radio buttons na barra de busca: Ingredient, Name e First letter
+    ✓ Se o radio selecionado for Ingredient, a busca na API é feita corretamente pelo ingrediente (5171ms)
+    ✓ Se o radio selecionado for Name, a busca na API é feita corretamente pelo nome
+    ✓ Se o radio selecionado for First letter, a busca na API é feita corretamente pelo primeira letra
+    ✓ Se o radio selecionado for First letter e a busca na API for feita com mais de uma letra, deve-se exibir um alert
+
+  12 - Busque na API de comidas caso a pessoa esteja na página de comidas, e na API de bebidas caso esteja na de bebidas
+    ✓ Na tela de bebidas, se o radio selecionado for Ingredient, a busca na API é feita corretamente pelo ingrediente
+    ✓ Na tela de bebidas, se o radio selecionado for Name, a busca na API é feita corretamente pelo nome (8126ms)
+    ✓ Na tela de bebidas, se o radio selecionado for First letter, a busca na API é feita corretamente pelo primeira letra (8553ms)
+    ✓ Na tela de bebidas, se o radio selecionado for First letter e a busca na API for feita com mais de uma letra, deve-se exibir um alert
+    1) Verifica a cobertura de 45% do Componente SearchBar
+
+  13 - Redirecione para a tela de detalhes da receita caso apenas uma receita seja encontrada, com o ID da mesma na URL
+    ✓ Caso apenas uma comida seja encontrada, deve-se ir para sua rota de detalhes (5263ms)
+    ✓ Caso apenas uma bebida seja encontrada, deve-se ir para sua rota de detalhes
+
+  14 - Exiba um `alert` caso nenhuma receita seja encontrada
+    ✓ Caso nenhuma comida seja encontrada o alert deve ser exibido
+    ✓ Caso nenhuma bebida seja encontrada o alert deve ser exibido
+    2) Verifica a cobertura de 90% do Componente SearchBar
+
+
+  13 passing (3m)
+  2 failing
+
+  1) 12 - Busque na API de comidas caso a pessoa esteja na página de comidas, e na API de bebidas caso esteja na de bebidas
+       Verifica a cobertura de 45% do Componente SearchBar:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  2) 14 - Exiba um `alert` caso nenhuma receita seja encontrada
+       Verifica a cobertura de 90% do Componente SearchBar:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_008.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        15                                                                               │
+  │ Passing:      13                                                                               │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 minutes, 12 seconds                                                            │
+  │ Spec Ran:     10-14.header_search_bar.cy.js                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  15-17.footer.cy.js                                                             (5 of 11)
+
+
+  15 - Implemente o menu inferior posicionando-o de forma fixa e contendo 2 ícones: um para comidas e outro para bebidas
+    ✓ O menu inferior existe e contém os ícones corretos
+    ✓ O menu inferior deve ficar fixado sempre ao final da página
+    1) Verifica a cobertura de 45% do Componente Footer
+
+  16 - Exiba o menu inferior apenas nas telas indicadas pelo protótipo
+    ✓ Rota "/": não deve ter footer
+    ✓ Rota "/meals": deve ter footer
+    ✓ Rota "/drinks": deve ter footer
+    ✓ Rota "/meals/{id-da-receita}": não deve ter footer
+    ✓ Rota "drinks/{id-da-receita}": não deve ter footer
+    ✓ Rota "/meals/{id-da-receita}/in-progress": não deve ter footer
+    ✓ Rota "/drinks/{id-da-receita}/in-progress": não deve ter footer
+    ✓ Rota "/profile": deve ter footer
+    ✓ Rota "/done-recipes": não deve ter footer
+    ✓ Rota "/favorite-recipes": não deve ter footer
+
+  17 - Redirecione a pessoa usuária para a tela correta ao clicar em cada ícone no menu inferior
+    ✓ Redireciona para a lista de bebidas ao clicar no ícone de bebidas
+    ✓ Redireciona para a lista de comidas ao clicar no ícone de comidas
+    2) Verifica a cobertura de 90% do Componente Footer
+
+
+  14 passing (3m)
+  2 failing
+
+  1) 15 - Implemente o menu inferior posicionando-o de forma fixa e contendo 2 ícones: um para comidas e outro para bebidas
+       Verifica a cobertura de 45% do Componente Footer:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  2) 17 - Redirecione a pessoa usuária para a tela correta ao clicar em cada ícone no menu inferior
+       Verifica a cobertura de 90% do Componente Footer:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_009.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        16                                                                               │
+  │ Passing:      14                                                                               │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 minutes, 52 seconds                                                            │
+  │ Spec Ran:     15-17.footer.cy.js                                                               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  18-22.recipes.cy.js                                                            (6 of 11)
+
+
+  18 - Carregue as 12 primeiras receitas de comidas ou bebidas, uma em cada card
+    ✓ Caso as receitas sejam de comida, deve-se carregar as 12 primeiras receitas (7173ms)
+    ✓ Caso as receitas sejam de bebida, deve-se carregar as 12 primeiras receitas
+    ✓ A tela tem os data-testids de todos os 12 cards da tela de comidas
+    ✓ A tela tem os data-testids de todos os 12 cards da tela de bebidas
+
+  19 - Implemente os botões de categoria para serem utilizados como filtro
+    ✓ Caso as receitas sejam de comida, deve-se exibir as 5 primeiras categorias de comida
+    ✓ Caso as receitas sejam de bebida, deve-se exibir as 5 primeiras categorias de bebida
+    1) Verifica a cobertura de 45% da tela de receitas
+
+  20 - Implemente o filtro das receitas por meio da API ao clicar no filtro de categoria
+    ✓ Caso as receitas sejam de comida e a categoria seja "Beef", deve-se carregar as 12 primeiras receitas de "Beef" (8298ms)
+    ✓ Caso as receitas sejam de comida e a categoria seja "Breakfast", deve-se carregar as 12 primeiras receitas de "Breakfast"
+    ✓ Caso as receitas sejam de comida e a categoria seja "Chicken", deve-se carregar as 12 primeiras receitas de "Chicken"
+    ✓ Caso as receitas sejam de comida e a categoria seja "Dessert", deve-se carregar as 12 primeiras receitas de "Dessert"
+    ✓ Caso as receitas sejam de comida e a categoria seja "Goat", deve-se carregar as 12 primeiras receitas de "Goat"
+    ✓ Caso as receitas sejam de bebida e a categoria seja "Ordinary Drink", deve-se carregar as 12 primeiras receitas de "Ordinary Drink"
+    ✓ Caso as receitas sejam de bebida e a categoria seja "Cocktail", deve-se carregar as 12 primeiras receitas de "Cocktail"
+    ✓ Caso as receitas sejam de bebida e a categoria seja "Shake", deve-se carregar as 12 primeiras receitas de "Shake"
+    ✓ Caso as receitas sejam de bebida e a categoria seja "Other/Unknown", deve-se carregar as 12 primeiras receitas de "Other/Unknown"
+    ✓ Caso as receitas sejam de bebida e a categoria seja "Cocoa", deve-se carregar as 12 primeiras receitas de "Cocoa"
+    ✓ Caso as receitas sejam de comida deve existir a opção de filtrar por todas as categorias (9292ms)
+    ✓ Caso as receitas sejam de bebida deve existir a opção de filtrar por todas as categorias (9014ms)
+
+  21 - Implemente o filtro como um toggle, o qual se for selecionado novamente, o app deve retornar as receitas sem nenhum filtro
+    ✓ Caso as receitas sejam de comida e o filtro tenha sido selecionado novamente, deve-se retornar as 12 primeiras receitas sem filtro
+    ✓ Caso as receitas sejam de bebida e o filtro tenha sido selecionado novamente, deve-se retornar as 12 primeiras receitas sem filtro
+
+  22 - Redirecione a pessoa usuária ao clicar no card para a tela de detalhes, que deve mudar a rota e conter o id da receita na URL
+    ✓ Caso as receitas sejam de comida a rota deve mudar para a tela de detalhes da receita
+    ✓ Caso as receitas sejam de bebida a rota deve mudar para a tela de detalhes da receita
+    2) Verifica a cobertura de 90% da Tela de Receitas
+
+
+  22 passing (4m)
+  2 failing
+
+  1) 19 - Implemente os botões de categoria para serem utilizados como filtro
+       Verifica a cobertura de 45% da tela de receitas:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  2) 22 - Redirecione a pessoa usuária ao clicar no card para a tela de detalhes, que deve mudar a rota e conter o id da receita na URL
+       Verifica a cobertura de 90% da Tela de Receitas:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_010.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        24                                                                               │
+  │ Passing:      22                                                                               │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 minutes, 43 seconds                                                            │
+  │ Spec Ran:     18-22.recipes.cy.js                                                              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  23-35.recipe_detail.cy.js                                                      (7 of 11)
+
+
+  23 - Realize uma request para a API passando o `id` da receita que deve estar disponível nos parâmetros da URL
+    ✓ Verifica se a requisição para a API de comidas foi realizada
+    ✓ Verifica se a requisição para a API de bebidas foi realizada
+
+  24 - Desenvolva a tela de modo que contenha uma imagem da receita, o título, a categoria em caso de comidas e se é ou não alcoólico em caso de bebidas, uma lista de ingredientes seguidos pelas quantidades, instruções, um vídeo do youtube incorporado e recomendações
+    ✓ Verifica se os elementos descritos no protótipo existem na tela de detalhes de comida
+    ✓ A tela de comida possui todos os atributos data-testid
+    ✓ Verifica se os elementos descritos no protótipo existem na tela de detalhes de bebida
+    ✓ A tela de bebidas possui todos os atributos data-testid
+
+  25 - Implemente as recomendações. Para receitas de comida, a recomendação deverá ser bebida, já para as receitas de bebida a recomendação deverá ser comida
+    ✓ Verifica se a requisição para a API de bebidas foi realizada
+    ✓ Verifica se a requisição para a API de comidas foi realizada
+
+  26 - Implemente os 6 cards de recomendação, mostrando apenas 2. O scroll é horizontal, similar a um `carousel`
+    1) Verifica se existem todas as recomendações na tela de detalhes de uma comida
+    2) Verifica se existem todas as recomendações na tela de detalhes de uma bebida
+
+  27 - Desenvolva um botão de nome "Start Recipe" que deve ficar fixo na parte de baixo da tela o tempo todo
+    ✓ Verifica posicionamento do botão na tela de detalhes de comida
+    ✓ Verifica posicionamento do botão na tela de detalhes de bebida
+
+  28 - Implemente a solução de forma que, caso a receita já tenha sido feita, o botão "Start Recipe" desapareça
+    ✓ Verifica se botão de iniciar receita não é visível na tela de detalhes de uma comida
+    ✓ Verifica se botão de iniciar receita não é visível na tela de detalhes de uma bebida
+    3) Verifica a cobertura de 45% da Tela de Detalhes da Receita
+
+  29 - Implemente a solução de modo que, caso a receita tenha sido iniciada mas não finalizada, o texto do botão deve ser "Continue Recipe"
+    ✓ Verifica botão de "Continue Recipe" na tela de detalhes de uma comida
+    ✓ Verifica botão de "Continue Recipe" na tela de detalhes de uma bebida
+
+  30 - Redirecione a pessoa usuária caso o botão "Start Recipe" seja clicado, a rota deve mudar para a tela de receita em progresso
+    ✓ Redireciona para tela de receita da comida em progresso
+    ✓ Redireciona para tela de receita da bebida em progresso
+
+  31 - Implemente um botão de compartilhar e um de favoritar a receita
+    ✓ Verifica se os botões estão disponíveis na tela de detalhes de uma comida
+    ✓ Verifica se os botões estão disponíveis na tela de detalhes de uma bebida
+
+  32 - Implemente a solução de forma que, ao clicar no botão de compartilhar, o link da receita dentro do app deve ser copiado para o clipboard e uma mensagem avisando que o link foi copiado deve aparecer
+    ✓ Verifica a mensagem "Link copied!" e se o link da receita da comida foi copiado para o clipboard
+    ✓ Verifica a mensagem "Link copied!" e se o link da receita da bebida foi copiado para o clipboard
+
+  33 - Salve as receitas favoritas no `localStorage` na chave `favoriteRecipes`
+    ✓ Verifica se após favoritar receita de uma comida, ela é salva corretamente no localStorage
+    ✓ Verifica se após favoritar receita de uma bebida, ela é salva corretamente no localStorage
+
+  34 - Implemente o ícone do coração (favorito) de modo que: deve vir preenchido caso a receita esteja favoritada e "despreenchido" caso contrário
+    ✓ Verifica se a comida favoritada vem com o coração preenchido
+    ✓ Verifica se a comida não favoritada vem com o coração "despreenchido"
+    ✓ Verifica se a bebida favoritada vem com o coração preenchido
+    ✓ Verifica se a bebida não favoritada vem com o coração "despreenchido"
+
+  35 - Implemente a lógica no botão de favoritar. Caso seja clicado, o ícone do coração deve mudar seu estado atual, caso esteja preenchido deve mudar para "despreenchido" e vice-versa
+    ✓ Favorita a comida
+    ✓ Desfavorita a comida
+    ✓ Favorita a bebida
+    ✓ Desfavorita a bebida
+    4) Verifica a cobertura de 90% da Tela de Detalhes da Receita
+
+
+  30 passing (4m)
+  4 failing
+
+  1) 26 - Implemente os 6 cards de recomendação, mostrando apenas 2. O scroll é horizontal, similar a um `carousel`
+       Verifica se existem todas as recomendações na tela de detalhes de uma comida:
+     AssertionError: Timed out retrying after 10000ms: expected '<div.recommendation-card>' not to be 'visible'
+      at Context.eval (webpack:///./cypress/e2e/23-35.recipe_detail.cy.js:171:68)
+
+  2) 26 - Implemente os 6 cards de recomendação, mostrando apenas 2. O scroll é horizontal, similar a um `carousel`
+       Verifica se existem todas as recomendações na tela de detalhes de uma bebida:
+     AssertionError: Timed out retrying after 10000ms: expected '<div.recommendation-card>' not to be 'visible'
+      at Context.eval (webpack:///./cypress/e2e/23-35.recipe_detail.cy.js:195:68)
+
+  3) 28 - Implemente a solução de forma que, caso a receita já tenha sido feita, o botão "Start Recipe" desapareça
+       Verifica a cobertura de 45% da Tela de Detalhes da Receita:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+The task handler was:
+
+(id) => id === runnerId ? coverageResult : testCoverage(id)
+
+Fix this in your setupNodeEvents method here:
+/home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress.config.js
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145886:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6457:37)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  4) 35 - Implemente a lógica no botão de favoritar. Caso seja clicado, o ícone do coração deve mudar seu estado atual, caso esteja preenchido deve mudar para "despreenchido" e vice-versa
+       Verifica a cobertura de 90% da Tela de Detalhes da Receita:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_011.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        34                                                                               │
+  │ Passing:      30                                                                               │
+  │ Failing:      4                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 minutes, 33 seconds                                                            │
+  │ Spec Ran:     23-35.recipe_detail.cy.js                                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  36-42.recipe_in_progress.cy.js                                                 (8 of 11)
+
+
+  36 - Desenvolva a tela de modo que contenha uma imagem da receita, o título, a categoria em caso de comidas e se é ou não alcoólico em caso de bebidas, uma lista de ingredientes com suas respectivas quantidades e instruções
+    1) verifica elementos de uma receita de comida
+    2) verifica elementos de uma receita de bebida
+
+  37 - Desenvolva um checkbox para cada item da lista de ingredientes
+    ✓ todos os ingredientes de uma receita de comida possuem um checkbox
+    ✓ todos os ingredientes de uma receita de bebida possuem um checkbox
+
+  38 - Implemente uma lógica que ao clicar no checkbox de um ingrediente, o nome dele deve ser "riscado" da lista
+    ✓ verifica se é possível marcar todos os passos da receita de comida
+    ✓ verifica se é possível marcar todos os passos da receita de bebida
+    3) Verifica a cobertura de 45% da Tela de Progresso da Receita
+
+  39 - Salve o estado do progresso, que deve ser mantido caso a pessoa atualize a página ou volte para a mesma receita
+    ✓ salva o progresso de uma receita de comida em andamento (7178ms)
+    ✓ salva o progresso de uma receita de bebida em andamento
+
+  40 - Desenvolva a lógica de favoritar e compartilhar. A lógica da tela de detalhes de uma receita se aplica aqui
+    4) verifica se os botões estão disponíveis na tela de detalhes de uma comida
+    5) verifica se os botões estão disponíveis na tela de detalhes de uma bebida
+    6) verifica a mensagem "Link copied!" e se o link da receita da comida foi copiado para o clipboard
+    7) verifica a mensagem "Link copied!" e se o link da receita da bebida foi copiado para o clipboard
+    ✓ verifica comida favoritada
+    ✓ verifica comida não favoritada
+    ✓ verifica bebida favoritada
+    ✓ verifica bebida não favoritada
+    ✓ favorita comida
+    ✓ desfavorita comida
+    ✓ favorita bebida
+    ✓ desfavorita bebida
+    ✓ favorita receita de uma comida
+    ✓ favorita receita de uma bebida
+
+  41 - Implemente a solução de modo que o botão de finalizar receita ("Finish Recipe") só pode estar habilitado quando todos os ingredientes estiverem _"checkados"_ (marcados)
+    ✓ verifica se botão para finalizar está desabilitado em receitas de comidas
+    ✓ verifica se botão para finalizar está desabilitado em receitas de bebidas
+    ✓ verifica se botão para finalizar está habilitado em receitas de comidas
+    ✓ verifica se botão para finalizar está habilitado em receitas de bebidas
+
+  42 - Redirecione a pessoa usuária após clicar no botão de finalizar receita ("Finish Recipe"), para a página de receitas feitas, cuja rota deve ser `/done-recipes`
+    ✓ adiciona a comida feita no localStorage
+    ✓ adiciona a bebida feita no localStorage
+    ✓ redireciona após concluir uma receita de comida
+    ✓ redireciona após concluir uma receita de bebida
+    8) Verifica a cobertura de 90% da Tela de Progresso da Receita
+
+
+  24 passing (4m)
+  8 failing
+
+  1) 36 - Desenvolva a tela de modo que contenha uma imagem da receita, o título, a categoria em caso de comidas e se é ou não alcoólico em caso de bebidas, uma lista de ingredientes com suas respectivas quantidades e instruções
+       verifica elementos de uma receita de comida:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `[data-testid="share-btn"]`, but never found it.
+      at Context.eval (webpack:///./cypress/e2e/36-42.recipe_in_progress.cy.js:18:7)
+
+  2) 36 - Desenvolva a tela de modo que contenha uma imagem da receita, o título, a categoria em caso de comidas e se é ou não alcoólico em caso de bebidas, uma lista de ingredientes com suas respectivas quantidades e instruções
+       verifica elementos de uma receita de bebida:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `[data-testid="share-btn"]`, but never found it.
+      at Context.eval (webpack:///./cypress/e2e/36-42.recipe_in_progress.cy.js:34:7)
+
+  3) 38 - Implemente uma lógica que ao clicar no checkbox de um ingrediente, o nome dele deve ser "riscado" da lista
+       Verifica a cobertura de 45% da Tela de Progresso da Receita:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  4) 40 - Desenvolva a lógica de favoritar e compartilhar. A lógica da tela de detalhes de uma receita se aplica aqui
+       verifica se os botões estão disponíveis na tela de detalhes de uma comida:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `[data-testid="share-btn"]`, but never found it.
+      at Context.eval (webpack:///./cypress/e2e/36-42.recipe_in_progress.cy.js:162:40)
+
+  5) 40 - Desenvolva a lógica de favoritar e compartilhar. A lógica da tela de detalhes de uma receita se aplica aqui
+       verifica se os botões estão disponíveis na tela de detalhes de uma bebida:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `[data-testid="share-btn"]`, but never found it.
+      at Context.eval (webpack:///./cypress/e2e/36-42.recipe_in_progress.cy.js:173:40)
+
+  6) 40 - Desenvolva a lógica de favoritar e compartilhar. A lógica da tela de detalhes de uma receita se aplica aqui
+       verifica a mensagem "Link copied!" e se o link da receita da comida foi copiado para o clipboard:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `[data-testid="share-btn"]`, but never found it.
+      at Context.eval (webpack:///./cypress/e2e/36-42.recipe_in_progress.cy.js:186:7)
+
+  7) 40 - Desenvolva a lógica de favoritar e compartilhar. A lógica da tela de detalhes de uma receita se aplica aqui
+       verifica a mensagem "Link copied!" e se o link da receita da bebida foi copiado para o clipboard:
+     AssertionError: Timed out retrying after 10000ms: Expected to find element: `[data-testid="share-btn"]`, but never found it.
+      at Context.eval (webpack:///./cypress/e2e/36-42.recipe_in_progress.cy.js:200:7)
+
+  8) 42 - Redirecione a pessoa usuária após clicar no botão de finalizar receita ("Finish Recipe"), para a página de receitas feitas, cuja rota deve ser `/done-recipes`
+       Verifica a cobertura de 90% da Tela de Progresso da Receita:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_012.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        32                                                                               │
+  │ Passing:      24                                                                               │
+  │ Failing:      8                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 minutes, 17 seconds                                                            │
+  │ Spec Ran:     36-42.recipe_in_progress.cy.js                                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  43-48.done_recipes.cy.js                                                       (9 of 11)
+
+
+  Done recipes screen
+    43 - Implemente os elementos da tela de receitas feitas respeitando os atributos descritos no protótipo
+      ✓ Todos os data-testids estão disponíveis (5104ms)
+    44 - Desenvolva a tela de modo que, caso a receita do card seja uma comida, ela deve possuir: a foto da receita,  nome, categoria, nacionalidade, a data em que a pessoa fez a receita, as 2 primeiras tags retornadas pela API e um botão de compartilhar
+      ✓ O card possui os atributos corretos de uma comida
+    45 - Desenvolva a tela de maneira que, caso a receita do card seja uma bebida, ela deve possuir: a foto da receita, o nome, se é alcoólica, a data em que a pessoa fez a receita e um botão de compartilhar
+      ✓ O card possui os atributos corretos de uma bebida
+      1) Verifica a cobertura de 45% da tela de Receitas Feitas
+    46 - Desenvolva a solução de modo que o botão de compartilhar deve copiar a URL da tela de detalhes da receita para o clipboard
+      ✓ Ao clicar no botão de compartilhar deve aparecer a mensagem "Link copied!"
+      ✓ A URL da tela de detalhes da receita é copiada para o clipboard
+    47 - Implemente 2 botões que filtram as receitas por comida ou bebida e um terceiro que remove todos os filtros
+      ✓ Ao clicar no botão "Meal" as receitas devem ser filtradas por comidas
+      ✓ Ao clicar no botão "Drinks" as receitas devem ser filtradas por bebidas
+      ✓ Ao clicar no botão "All" o filtro deve ser removido
+    48 - Redirecione para a tela de detalhes da receita caso seja clicado na foto ou no nome da receita
+      ✓ Ao clicar na foto da receita, a rota deve mudar para a tela de detalhes daquela receita
+      ✓ Ao clicar no nome da receita, a rota deve mudar para a tela de detalhes daquela receita
+      2) Verifica a cobertura de 90% da tela de Receitas Feitas
+
+
+  10 passing (3m)
+  2 failing
+
+  1) Done recipes screen
+       45 - Desenvolva a tela de maneira que, caso a receita do card seja uma bebida, ela deve possuir: a foto da receita, o nome, se é alcoólica, a data em que a pessoa fez a receita e um botão de compartilhar
+         Verifica a cobertura de 45% da tela de Receitas Feitas:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  2) Done recipes screen
+       48 - Redirecione para a tela de detalhes da receita caso seja clicado na foto ou no nome da receita
+         Verifica a cobertura de 90% da tela de Receitas Feitas:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+The task handler was:
+
+(id) => id === runnerId ? coverageResult : testCoverage(id)
+
+Fix this in your setupNodeEvents method here:
+/home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress.config.js
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145886:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6457:37)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_013.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        12                                                                               │
+  │ Passing:      10                                                                               │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 minutes, 42 seconds                                                            │
+  │ Spec Ran:     43-48.done_recipes.cy.js                                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  49-55.favorite_recipes.cy.js                                                  (10 of 11)
+
+
+  Favorite recipes screen
+    49 - Implemente os elementos da tela de receitas favoritas (cumulativo com os atributos em comum com a tela de receitas feitas), respeitando os atributos descritos no protótipo
+      ✓ Todos os data-testids, cumulativo com os atributos em comum com a tela de receitas feitas, estão disponíveis
+    50 - Desenvolva a tela de modo que, caso a receita do card seja uma comida, ela deve possuir: a foto da receita,  nome, categoria, nacionalidade, um botão de compartilhar e um de "desfavoritar"
+      ✓ O card possui os atributos corretos de uma comida
+    51 - Desenvolva a tela de modo que, caso a receita do card seja uma bebida, ela deve possuir: a foto da receita,  nome, se é alcoólica ou não, um botão de compartilhar e um de "desfavoritar"
+      ✓ O card possui os atributos corretos de uma bebida
+      1) Verifica a cobertura de 45% da tela de Receitas Favoritas
+    52 - Desenvolva a solução de modo que o botão de compartilhar deve copiar a URL da tela de detalhes da receita para o clipboard
+      ✓ Ao clicar no botão de compartilhar deve aparecer a mensagem "Link copied!"
+      ✓ A URL da tela de detalhes da receita é copiada para o clipboard
+    53 - Desenvolva a solução de modo que o botão de "desfavoritar" deve remover a receita da lista de receitas favoritas do `localStorage` e da tela
+      ✓ Ao clicar no botão de "desfavoritar" a respectiva receita é removida da tela
+      ✓ Ao clicar no botão de "desfavoritar" a respectiva receita é removida do localStorage
+    54 - Implemente 2 botões que filtram as receitas por comida ou bebida e um terceiro que remove todos os filtros
+      ✓ Ao clicar no botão "Meal" as receitas devem ser filtradas por comidas
+      ✓ Ao clicar no botão "Drinks" as receitas devem ser filtradas por bebidas
+      ✓ Ao clicar no botão "All" o filtro deve ser removido
+    55 - Redirecione a pessoa usuária ao clicar na foto ou no nome da receita, a rota deve mudar para a tela de detalhes daquela receita
+      ✓ Ao clicar na foto da receita, a rota deve mudar para a tela de detalhes daquela receita
+      ✓ Ao clicar no nome da receita, a rota deve mudar para a tela de detalhes daquela receita
+      2) Verifica a cobertura de 90% da tela de Receitas Favoritas
+
+
+  12 passing (3m)
+  2 failing
+
+  1) Favorite recipes screen
+       51 - Desenvolva a tela de modo que, caso a receita do card seja uma bebida, ela deve possuir: a foto da receita,  nome, se é alcoólica ou não, um botão de compartilhar e um de "desfavoritar"
+         Verifica a cobertura de 45% da tela de Receitas Favoritas:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  2) Favorite recipes screen
+       55 - Redirecione a pessoa usuária ao clicar na foto ou no nome da receita, a rota deve mudar para a tela de detalhes daquela receita
+         Verifica a cobertura de 90% da tela de Receitas Favoritas:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145876:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6440:41)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_014.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        14                                                                               │
+  │ Passing:      12                                                                               │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 minutes, 37 seconds                                                            │
+  │ Spec Ran:     49-55.favorite_recipes.cy.js                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  56-61.profile.cy.js                                                           (11 of 11)
+
+
+  Profile screen
+    56 - Implemente os elementos da tela de perfil respeitando os atributos descritos no protótipo
+      ✓ Todos o data-testid do email e de todos os botões
+    57 - Implemente a solução de maneira que o e-mail da pessoa usuária deve estar visível
+      ✓ O e-mail armazenado em localStorage está visível
+    58 - Implemente 3 botões: um de nome "Done Recipes", um de nome "Favorite Recipes" e um de nome "Logout"
+      ✓ A tela contêm todos os 3 botões
+    59 - Redirecione a pessoa usuária que, ao clicar no botão de "Done Recipes", a rota deve mudar para a tela de receitas feitas
+      ✓ Redireciona para a rota correta
+      1) Verifica a cobertura de 45% da tela de Perfil
+    60 - Redirecione a pessoa usuária que, ao clicar no botão de "Favorite Recipes", a rota deve mudar para a tela de receitas favoritas
+      ✓ Redireciona para a rota correta
+    61 - Redirecione a pessoa usuária que ao clicar no botão de "Logout", o `localStorage` deve ser limpo e a rota deve mudar para a tela de login
+      ✓ Limpa todas as chaves da localStorage
+      ✓ A rota muda para a tela de login
+      2) Verifica a cobertura de 90% da tela de Perfil
+
+
+  7 passing (2m)
+  2 failing
+
+  1) Profile screen
+       59 - Redirecione a pessoa usuária que, ao clicar no botão de "Done Recipes", a rota deve mudar para a tela de receitas feitas
+         Verifica a cobertura de 45% da tela de Perfil:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+The task handler was:
+
+(id) => id === runnerId ? coverageResult : testCoverage(id)
+
+Fix this in your setupNodeEvents method here:
+/home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress.config.js
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145886:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6457:37)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+  2) Profile screen
+       61 - Redirecione a pessoa usuária que ao clicar no botão de "Logout", o `localStorage` deve ser limpo e a rota deve mudar para a tela de login
+         Verifica a cobertura de 90% da tela de Perfil:
+     CypressError: `cy.task('getCoverage')` timed out after waiting `60000ms`.
+
+The task handler was:
+
+(id) => id === runnerId ? coverageResult : testCoverage(id)
+
+Fix this in your setupNodeEvents method here:
+/home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress.config.js
+
+https://on.cypress.io/api/task
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:145886:78)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at <unknown> (http://localhost:3000/__cypress/runner/cypress_runner.js:6457:37)
+      at tryCatcher (http://localhost:3000/__cypress/runner/cypress_runner.js:11318:23)
+      at Promise._settlePromiseFromHandler (http://localhost:3000/__cypress/runner/cypress_runner.js:9253:31)
+      at Promise._settlePromise (http://localhost:3000/__cypress/runner/cypress_runner.js:9310:18)
+      at Promise._settlePromise0 (http://localhost:3000/__cypress/runner/cypress_runner.js:9355:10)
+      at Promise._settlePromises (http://localhost:3000/__cypress/runner/cypress_runner.js:9431:18)
+      at _drainQueueStep (http://localhost:3000/__cypress/runner/cypress_runner.js:6025:12)
+      at _drainQueue (http://localhost:3000/__cypress/runner/cypress_runner.js:6018:9)
+      at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:6034:5)
+      at Async.drainQueues (http://localhost:3000/__cypress/runner/cypress_runner.js:5904:14)
+  From Your Spec Code:
+      at Context.eval (webpack:///./cypress/support/commands.js:26:45)
+
+
+
+[mochawesome] Report JSON saved to /home/eu/Documentos/GitHub/app-receitas-estilizado/sd-035-project-recipes-app-ts/cypress/reports/mochawesome_015.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        9                                                                                │
+  │ Passing:      7                                                                                │
+  │ Failing:      2                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 minutes, 23 seconds                                                            │
+  │ Spec Ran:     56-61.profile.cy.js                                                              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  01.coverage.cy.js                        01:01        1        -        1        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  02-06.login.cy.js                        02:41        9        7        2        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  07-09.header.cy.js                       02:35       15       13        2        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  10-14.header_search_bar.cy.js            03:12       15       13        2        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  15-17.footer.cy.js                       02:52       16       14        2        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  18-22.recipes.cy.js                      03:43       24       22        2        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  23-35.recipe_detail.cy.js                03:33       34       30        4        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  36-42.recipe_in_progress.cy.js           04:17       32       24        8        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  43-48.done_recipes.cy.js                 02:42       12       10        2        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  49-55.favorite_recipes.cy.js             02:37       14       12        2        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  56-61.profile.cy.js                      02:23        9        7        2        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  11 of 11 failed (100%)                   31:42      181      152       29        -        -  
+

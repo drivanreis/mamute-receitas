@@ -1,0 +1,34 @@
+.recommendations-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 0;
+  width: 100dvw;
+  overflow-x: scroll;
+}
+
+.recommendation-card {
+  text-decoration: none;
+  color: black;
+  margin: 5px 5px 15px 5px; 
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.555);
+  width: 170px;
+  height: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.recommendation-card:hover {
+  background-color: #a4a6a8;
+  color: black;
+  font-weight: bold;
+}
+
+.recipe-recomendation-img {
+  width: 150px;
+  height: 150px;
+}
+
