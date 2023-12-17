@@ -1,27 +1,27 @@
 .search-bar {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 100dvw;
   max-width: 100dvw;
   padding: 10px;
+  width: 100dvw;
 }
 
 .search-bar button {
-  padding: 5px 100px;
-  background-color: #41197F;
-  color: #FCDC36;
+  background-color: #41197f;
+  border: none;
   border-radius: 5px;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.555);
-  border: none;
+  color: #fcdc36;
+  font-weight: 700;
   margin-bottom: 5px;
-  font-weight: bold;
+  padding: 5px 100px;
 }
 
 .search-bar button:hover {
-  background-color: #FCDC36;
-  color: #41197F;
+  background-color: #fcdc36;
   border: none;
+  color: #41197f;
 }
 
 label {
@@ -35,20 +35,20 @@ label {
 .search-input {
   border: 1px solid #007bff;
   border-radius: 5px;
+  margin-bottom: 10px;
   padding: 10px;
   width: 100%;
-  margin-bottom: 10px;
 }
 
 .radio-inputs {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
   margin-bottom: 5px;
 }
 
 .radio-input {
   margin-left: 4px;
-  margin-right: 4px;  
+  margin-right: 4px;
 }

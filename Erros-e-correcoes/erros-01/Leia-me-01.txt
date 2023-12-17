@@ -1,0 +1,11 @@
+Anda não fiz nem uma correção.
+Apenas troce o projeto para o windows11+wsl2
+E percebam que existe uma pequena diferença. é sutil.
+Ex: erros-coverage-00 vs. erros-coverage-01
+25-30, 35-40 vs 25-30,143-144
+ - erros de lint identicos.
+ - erros de lint-css identicos.
+Mas o MAIS descrepante, foi o teste cy.
+Pode até ser que a origem do problema seja a mesma.
+Mas os resutados são completamente diferentes.
+

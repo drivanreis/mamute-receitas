@@ -1,12 +1,12 @@
 .meal-details-container {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin: 0;
+  margin-top: 2px;
   padding: 0;
   width: 100dvw;
-  margin-top: 2px;
 }
 
 .meal-img {
@@ -14,91 +14,91 @@
 }
 
 .fav-share-btn {
-  margin-top: 2px;
+  background-color: white;
+  border: 2px solid #41197f;
+  border-radius: 50%;
   margin-left: 5px;
   margin-right: 5px;
-  border-radius: 50%;
-  background-color: white;
+  margin-top: 2px;
   padding: 5px;
-  border: 2px solid #41197F;
 }
 
 .fav-share-btn:hover {
-  background-color: #FCDC36;
+  background-color: #fcdc36;
 }
 
 .buttons {
-  width: 100dvw;
+  align-items: center;
   cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
-  margin: 0px;
+  margin: 0;
+  width: 100dvw;
 }
 
 .meal-title {
-  width: 100dvw;
-  background-color: #41197F;
-  text-align: center;
+  background-color: #41197f;
+  color: #fcdc36;
   font-size: 2.2rem;
-  margin-top: 5px;
   margin-bottom: 0;
-  color: #FCDC36;
+  margin-top: 5px;
+  text-align: center;
+  width: 100dvw;
 }
 
 .meal-category {
-  width: 100dvw;
-  background-color: #FCDC36;
-  text-align: center;
+  background-color: #fcdc36;
+  color: #41197f;
   font-size: 1.2rem;
-  margin-top: 0;
   margin-bottom: 0;
-  color: #41197F;
+  margin-top: 0;
   padding: 2px;
+  text-align: center;
+  width: 100dvw;
 }
 
 .ingredients-header {
-  width: 100dvw;
   text-align: center;
+  width: 100dvw;
 }
+
 .ingredients-table {
-  width: 90dvw;
-  margin-top: 5px;
   margin-bottom: 10px;
+  margin-top: 5px;
+  width: 90dvw;
 }
 
 .meal-instructions {
-  width: 100dvw;
+  margin: 10px 20px;
   text-align: center;
   width: 320px;
-  margin: 10px 20px 10px 20px;
 }
 
 .recommendations-title {
-  width: 100dvw;
-  text-align: center;
   font-size: 1.75rem;
-  margin-top: 5px;
   margin-bottom: 0;
+  margin-top: 5px;
+  text-align: center;
+  width: 100dvw;
 
 }
 
 
 .start-recipe-btn {
-  width: 100dvw;
-  background-color: #41197F;
-  color: #FCDC36;
+  background-color: #41197f;
   border: none;
-  padding: 10px;
-  margin: 0;
+  bottom: 0;
+  color: #fcdc36;
   cursor: pointer;
   font-weight: 700;
+  margin: 0;
+  padding: 10px;
   position: fixed;
-  bottom: 0;
+  width: 100dvw;
 }
 
 .start-recipe-btn:hover {
-  background-color: #FCDC36;
-  color: #41197F;
+  background-color: #fcdc36;
+  color: #41197f;
 }

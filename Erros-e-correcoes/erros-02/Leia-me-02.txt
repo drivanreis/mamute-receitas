@@ -1,0 +1,38 @@
+Agora que sabemos muito bem onde estamos,
+vamos começar a fazer correções.
+Vamos corrigir o CSS. agora tem 1390 erros.
+rodando npx stylelint '**/*.css' --fix
+Caio para 15 erros e tá facil resolver:
+src/Pages/Login.css
+  1:77  ✖  Expected single space before ";"     at-rule-semicolon-space-before
+ 23:28  ✖  Expected "rgb(0,0,0)" to be "black"  color-named
+ 32:28  ✖  Expected "rgb(0,0,0)" to be "black"  color-named
+ 65:28  ✖  Expected "rgb(0,0,0)" to be "black"  color-named
+
+src/Recipes/DoneRecipes.css
+  4:3  ✖  Expected shorthand property "flex-flow"  declaration-block-no-redundant-longhand-properties
+ 32:3  ✖  Expected shorthand property "flex-flow"  declaration-block-no-redundant-longhand-properties
+
+src/Recipes/FavoriteRecipes.css
+  4:3  ✖  Expected shorthand property "flex-flow"  declaration-block-no-redundant-longhand-properties
+ 32:3  ✖  Expected shorthand property "flex-flow"  declaration-block-no-redundant-longhand-properties
+
+src/Recipes/Profile.css
+ 28:3  ✖  Expected shorthand property "flex-flow"  declaration-block-no-redundant-longhand-properties
+
+src/Recipes/RecipeInProgress.css
+  92:10  ✖  Expected "#000" to be "black"  color-named
+ 104:10  ✖  Expected "#000" to be "black"  color-named
+
+src/Recipes/Recipes.css
+ 35:3  ✖  Expected shorthand property "flex-flow"  declaration-block-no-redundant-longhand-properties
+ 63:3  ✖  Expected shorthand property "flex-flow"  declaration-block-no-redundant-longhand-properties
+
+src/components/Header.css
+ 56:29  ✖  Unexpected whitespace before ";" in a multi-line declaration block  declaration-block-semicolon-newline-before
+
+src/components/NotFound.css
+ 22:16  ✖  Expected numeric font-weight notation  font-weight-notation
+
+TOTOS OS ERROS CORRIGIDOS!!
+
